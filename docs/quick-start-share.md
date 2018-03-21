@@ -12,7 +12,7 @@ Ready to get going?  Team collaboration should be so quick and natural, that it 
 
 Just follow these steps to start sharing.
 
-## 1. Install the extension
+### 1. Install the extension
 
 Installing the extension is easy. Just follow these steps:
 
@@ -42,11 +42,28 @@ Installing the extension is easy. Just follow these steps:
 
 By downloading and using Visual Studio Live Share, you agree to the [license terms](https://aka.ms/vsls-license) and [privacy statement](https://www.microsoft.com/en-us/privacystatement/EnterpriseDev/default.aspx). See [troubleshooting](https://aka.ms/vsls-troubleshooting) if you run into problems.
 
-## 2. Sign into Live Share
+### 2. Sign into Live Share
 
 Once installed, start up your tool sign in with the **credentials that are associated with the email you used to sign up**. 
 
-![VS Download](media/vs-sign-in-button.png) ![VS Code Download](media/vscode-sign-in-button.png)
+
+<table style="border: none;">
+<tr style="border: none;">
+    <td width="50%" style="border: none;">
+        <strong>Visual Studio Code</strong>
+    </td>
+    <td width="50%" style="border: none;">
+        <strong>Visual Studio</strong>
+    </td>
+</tr><tr style="border: none;">
+    <td width="50%" style="vertical-align: top; border: none;">
+        <img src="media/vscode-sign-in-button.png" />
+    </td>
+    <td width="50%" style="vertical-align: top; border: none;">
+        <img src="media/vs-sign-in-button.png" />
+    </td>
+</tr>
+</table>
 
 If you signed up with an email that **is not already tied to a Microsoft personal, work, or school account or a GitHub account**:
 1. Add the email as a secondary address to your GitHub profile
@@ -56,23 +73,37 @@ If you signed up with an email that **is not already tied to a Microsoft persona
 
 > **Tip:** Need to use a different sign-in for Visual Studio than your [personalization account](https://docs.microsoft.com/en-us/visualstudio/ide/signing-in-to-visual-studio)? Go to Tools &gt; Options &gt; Live Share &gt; User account.  
 
-
-## 3. Start a collaboration session
+### 3. Start a collaboration session
 
 Open a folder, project, or solution, and simply click "Share" within your tool and an invite link will be automatically copied to your clipboard. 
 
 > **Note:** You may be asked by your desktop firewall software to allow the Live Share agent to open a port the first time you share. Accepting this is entirely optional but enables a secured "direct mode" to improve performance when the person you are working with is on the same network as you are. See [change the connection mode](collab-session.md#change-the-connection-mode) for details.
 
-![VS Share Button](media/vs-share-button.png) ![VS Code Share Button](media/vscode-share-button.png)
+<table style="border: none;">
+<tr style="border: none;">
+    <td width="50%" style="border: none;">
+        <strong>Visual Studio Code</strong>
+    </td>
+    <td width="50%" style="border: none;">
+        <strong>Visual Studio</strong>
+    </td>
+</tr><tr style="border: none;">
+    <td width="50%" style="vertical-align: top; border: none;">
+        <img src="media/vscode-share-button.png" />
+    </td>
+    <td width="50%" style="vertical-align: top; border: none;">
+        <img src="media/vs-share-button.png" />
+    </td>
+</tr>
+</table>
 
-
-## 4. Send someone the invite link
+### 4. Send someone the invite link
 
 Send the link over e-mail, Slack, Skype, etc. and when opened in a browser will allow them to join a collaboration session that shares contents of the folder, project, or solution you opened. 
 
 Note that the **person you invite does not need to sign up or be accepted into the preview** and will not receive any email updates by simply signing in. The web page for the invite link contains everything they need to know to download, install needed tools, and join the collaboration session. (However, they will not be able to _create_ their own collaboration sessions until they've been accepted in the preview.)
 
-## 5. Collaborate!
+### 5. Collaborate!
 
 That's it!! Once your colleague has joined the collaboration session you'll be up and running!
 
