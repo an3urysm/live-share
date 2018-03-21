@@ -1,12 +1,12 @@
 # [Overview](getting-started.md)
 # Quick starts
-## [Sharing for the first time](quick-start-share.md)
-## [Joining for the first time](quick-start-join.md)
+## [Share your first project](quick-start-share.md)
+## [Join your first session](quick-start-join.md)
 #How-to guides
-## [Sign-in](getting-started.md#sign-into-visual-studio-live-share)
-## [Share a project](getting-started.md#share-a-project)
-## [Join a session](getting-started.md#join-a-collaboration-session)
-## [Change the connection mode](getting-started.md#change-the-connection-mode)
+## [Sign-in](collab-session.md#sign-into-visual-studio-live-share)
+## [Share a project](collab-session.md#share-a-project)
+## [Join a session](collab-session.md#join-a-collaboration-session)
+## [Change the connection mode](collab-session.md#change-the-connection-mode)
 ## Visual Studio Code
 
 ###[Use the scoped command menu](collab-vscode.md#use-the-scoped-command-menu)

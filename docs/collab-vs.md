@@ -6,7 +6,7 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 # Visual Studio How-tos
 
-Ready to get going with Visual Studio Live share?  This document provides you with some useful how-tos for the Visual Studio Live Share extension for Visual Studio. See [getting started](getting-started.md) for information on sharing and joining collaboration sessions in VS and other tools.
+Ready to get going with Visual Studio Live share? This article provides you with some useful how-tos for the Visual Studio Live Share extension for Visual Studio. See [collaboration session how-tos](collab-session.md) for information on sharing and joining collaboration sessions in VS and other tools.
 
 ## Co-Edit
 
@@ -115,3 +115,11 @@ While there are currently some shortcomings guests will experience while using t
 - [All major bugs, feature requests, and limitations](https://aka.ms/vsls-issues)
 - [All feature requests and limitations](https://aka.ms/vsls-feature-requests)
 - [Troubleshooting](troubleshooting.md)
+
+## See also
+
+- [Quick start: Share your first project](collab-session.md)
+- [Quick start: Join your first session](collab-session.md)
+- [Collaboration Session How-tos](collab-session.md)
+- [Visual Studio Code How-tos](collab-vscode.md)
+- [Provide feedback](support.md)

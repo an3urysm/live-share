@@ -4,13 +4,15 @@ All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
 
-# Welcome to Visual Studio Live Share!
+# Join your first collaboration session
 
-If you're here, one of the Visual Studio Live Share private limited preview members has probably **shared a collaboration session with you**! Team collaboration should be so quick and natural, that it becomes harder not to do it! For this reason, Visual Studio Live Share makes it simple to get started. 
+Welcome to Visual Studio Live Share! Live Share lets you to achieve greater confidence at speed by streamlining collaborative editing, debugging, and more in real-time during development. You get real-time sharing in tools you love, can share the full context of your code, collaboratively edit while still navigating files independently, securely share local servers, and even collaboratively debug while still retaining the ability to inspect on your own.
+
+Ready to get going? Team collaboration should be so quick and natural, that it becomes harder not to do it! For this reason, Visual Studio Live Share makes it simple to get started, so that you can seamlessly begin sharing your work and ideas.
 
 Just follow these steps to join a collaboration session:
 
-### 1. Download and install Visual Studio Live Share
+## 1. Download and install Visual Studio Live Share
 
 <table style="width: 100%; border-style: none;">
 <tr>
@@ -37,40 +39,40 @@ Just follow these steps to join a collaboration session:
 
 By downloading and using Visual Studio Live Share, you agree to the [license terms](https://aka.ms/vsls-license) and [privacy statement](https://www.microsoft.com/en-us/privacystatement/EnterpriseDev/default.aspx). See [troubleshooting](https://aka.ms/vsls-troubleshooting) if you run into problems.
 
-### 2. Start a discussion with the Collaboration Session Host
+## 2. Start a discussion with the host
 
 It's always good to start up a conversation via voice or chat in your favorite client before joining a collaboration session since you'll obviously need to communicate to collaborate.
 
-### 3. Open/re-open the invite link in your web browser
+## 3. Open/re-open the invite link in your web browser
 
-After installing Visual Studio Live Share for your IDE/editor, simply open (or re-open) the invite web page using the invite link your colleague sent you.  
+After installing Visual Studio Live Share for your IDE/editor, simply open (or re-open) the invite web page using the invite link your colleague sent you.
 
 You should be notified that your browser wants to launching your Visual Studio Live Share enabled tool and if you accept it the IDE/editor will launch and automatically start the process of joining the collaboration session.
 
-> **Troubleshooting Tip:** When using VS Code, be sure you've **started the tool at least once** after installing Visual Studio Live Share before opening/re-opening the invite page. Still having trouble? See [manually joining](../docs/getting-started.md#manually-joining) in our docs.
+> **Troubleshooting Tip:** When using VS Code, be sure you've **started the tool at least once** after installing Visual Studio Live Share before opening/re-opening the invite page. Still having trouble? See [manually joining](collab-session.md#manually-joining) in our docs.
 
 ### 4. Sign in from within your IDE/editor
 
 To let other collaborators know who you are, you may be asked to sign in during the join process using a GitHub or Microsoft work, school, or personal account.
 
-If you are using Visual Studio and have already signed into the tool, Visual Studio Live Share will automatically use your [personalization account](https://docs.microsoft.com/en-us/visualstudio/ide/signing-in-to-visual-studio) so you can skip this step! If prefer to use a different sign-in than your VS personalization account, go to **Tools &gt; Options &gt; Live Share &gt; User account** to switch credentials. 
+If you are using Visual Studio and have already signed into the tool, Visual Studio Live Share will automatically use your [personalization account](https://docs.microsoft.com/en-us/visualstudio/ide/signing-in-to-visual-studio) so you can skip this step! If prefer to use a different sign-in than your VS personalization account, go to **Tools &gt; Options &gt; Live Share &gt; User account** to switch credentials.
 
-### 5. Collaborate!
+## 5. Collaborate!
 
-That's it!! In a few moments you'll be connected to your colleague's collaboration session. Want to learn more about what you can do? Check out our documentation.
-
-- [Quick start: Sharing](welcome-owner.md)
-- [Getting started and managing collaboration sessions](../docs/getting-started.md)
-- [Visual Studio features](../docs/collab-vs.md)
-- [Visual Studio Code features](../docs/collab-vscode.md)
-- [Summary of language and platform support](../docs/platform-support.md)
-- [Troubleshooting](../docs/troubleshooting.md)
-
-Need help and not finding what you need in the docs?
-
-- [See if someone already hit your problem by searching logged issues](https://aka.ms/vsls-issues)
-- [Report a problem](../CONTRIBUTING.md#filing-problem-reports)
-- [Up-vote a feature or request a new one](https://aka.ms/vsls-feature-requests)
-- Or you can shoot us a [mail](mailto:vsls-feedback@microsoft.com) questions.
+That's it!! In a few moments you'll be connected to your colleague's collaboration session. 
 
 Interested in joining the private limited preview so you can create collaboration sessions instead of just joining them? [Sign up now!](https://aka.ms/vsls-signup)
+
+## See also
+
+Want to learn more about what you can do? Check out the following information.
+
+- [Quick start: Share your first project](collab-session.md)
+- [Collaboration Session How-tos](collab-session.md)
+- [Visual Studio Code How-tos](collab-vscode.md)
+- [Visual Studio How-tos](collab-vsmd)
+- [Language and platform support](platform-support.md)
+- [Extension support](extensions.md)
+- [Troubleshooting](troubleshooting.md)
+- [Provide feedback](support.md)
+
