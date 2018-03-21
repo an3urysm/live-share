@@ -95,3 +95,11 @@ This will require some form of API/SDK, which extensions can use to determine if
 | Debugging Sessions | *N/A* - Live Share can transparently remote all debugging sessions, including those that are enabled by custom extensions (e.g. [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)) |
 | Servers | 1. Sharing a server that an extension was responsible for starting, and then optionally specifying whether a browser should be launched on the guest's machine as well (e.g. a debug adapter that launched a web server).  |
 | Custom | 1. Synchronizing arbtrary state and/or user interactions (e.g. the [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) extension syncing CRUD operations across participants, the [Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven) extension exposing the project-wide view to guests) | 
+
+## See also
+
+- [Language and platform support](platform-support.md)
+- [All major bugs, feature requests, and limitations](https://aka.ms/vsls-issues)
+- [All feature requests and limitations](https://aka.ms/vsls-feature-requests)
+- [Troubleshooting](troubleshooting.md)
+- [Provide feedback](support.md)

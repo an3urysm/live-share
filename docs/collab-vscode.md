@@ -132,8 +132,8 @@ To **stop** sharing a local server, the host simply needs to click the session s
 
 While there are currently some shortcomings guests will experience while using the features described above, collaboration session hosts retain the complete functionality of their tool of choice. See the following for more information:
 
-- [Summary of language and platform support](platform-support.md)
-- [Overview of 3rd-party extension support](extensions.md)
+- [Language and platform support](platform-support.md)
+- [Extension support](extensions.md)
 - [All major bugs, feature requests, and limitations](https://aka.ms/vsls-issues)
 - [All feature requests and limitations](https://aka.ms/vsls-feature-requests)
 - [Troubleshooting](troubleshooting.md)

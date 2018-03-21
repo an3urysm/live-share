@@ -52,11 +52,16 @@ By downloading and using Visual Studio Live Share, you agree to the [license ter
 
 ## See also
 
-- [Quick start: Share your first project](collab-session.md)
-- [Quick start: Join your first session](collab-session.md)
+Quick starts
+- [Quick start: Share your first project](quick-start-share.md)
+- [Quick start: Join your first session](quick-start-join.md)
+
+How-tos
 - [Collaboration Session How-tos](collab-session.md)
 - [Visual Studio Code How-tos](collab-vscode.md)
 - [Visual Studio How-tos](collab-vsmd)
+
+Reference
 - [Language and platform support](platform-support.md)
 - [Extension support](extensions.md)
 - [Troubleshooting](troubleshooting.md)

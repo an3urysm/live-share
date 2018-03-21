@@ -194,8 +194,17 @@ The following are the states you will typically see:
 
 While there are currently some shortcomings guests will experience while using the features described above, collaboration session hosts retain the complete functionality of their tool of choice. See the following for more information:
 
-- [Summary of language and platform support](platform-support.md)
-- [Overview of 3rd-party extension support](extensions.md)
+- [Language and platform support](platform-support.md)
+- [Extension support](extensions.md)
 - [All major bugs, feature requests, and limitations](https://aka.ms/vsls-issues)
 - [All feature requests and limitations](https://aka.ms/vsls-feature-requests)
 - [Troubleshooting](troubleshooting.md)
+
+## See also
+
+- [Quick start: Share your first project](quick-start-share.md)
+- [Quick start: Join your first session](quick-start-join.md)
+- [Visual Studio Code How-tos](collab-vscode.md)
+- [Visual Studio How-tos](collab-vsmd)
+- [Troubleshooting](troubleshooting.md)
+- [Provide feedback](support.md)

@@ -88,8 +88,8 @@ Visual Studio:
 
 ## See also
 
-- [Summary of language and platform support](platform-support.md)
-- [Overview of 3rd-party extension support](extensions.md)
+- [Language and platform support](platform-support.md)
+- [Extension support](extensions.md)
 - [All major bugs, feature requests, and limitations](https://aka.ms/vsls-issues)
 - [All feature requests and limitations](https://aka.ms/vsls-feature-requests)
-- [Troubleshooting](troubleshooting.md)
+- [Provide feedback](support.md)
