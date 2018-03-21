@@ -4,39 +4,24 @@ All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
 
-# Getting Started
+# Visual Studio Live Share
 
-**Table of Contents**
+Welcome to Visual Studio Live Share! Ready to get going? We'll run you through some concepts and then cover a series of detailed how-tos to get you started.
 
-- [Collaboration session host and guests](#collaboration-session-host-and-guests)
-- [Downloading and installing](#downloading-and-installing)
-- [Signing into Visual Studio Live Share from within your IDE/editor](#signing-into-visual-studio-live-share-from-within-your-ideeditor)
-- [Starting a collaboration session](#starting-a-collaboration-session-and-sharing)
-- [Joining a collaboration session](#joining-a-collaboration-session)
-  - [Manually joining](#manually-joining)
-- [Changing the Connection Mode](#changing-the-connection-mode)
-- [What can I do with a collaboration session?](#what-can-i-do-with-a-collaboration-session)
-- [Ending a collaboration session](#ending-a-collaboration-session)
-- [Session states](#session-states)
-- [Known guest limitations](#known-guest-limitations)
-- [More information](#more-information)
-  - [Visual Studio features](collab-vs.md)
-  - [Visual Studio Code features](collab-vscode.md)
+## Concepts
 
-## Collaboration session host and guests
-
-All collaboration activities in Visual Studio Live Share involve a single **collaboration session host** and one or more **guests**. The host is the person that started the collaboration session and anyone that joins is a guest. 
+All collaboration activities in Visual Studio Live Share involve a single **collaboration session host** and one or more **guests**. The host is the person that started the collaboration session and anyone that joins is a guest.
 
 Collaboration session hosts can use all of their tools and services as they would normally but guests are only given access to the specific things the host has shared with them. This includes code, running servers, debugging sessions and more.  Currently all content that is shared is kept on the host's machine and not synchronized to the cloud or on the guest's machine which enables _instant access_ and _increased security_.  The advantage is that the entire solution is available the moment a guest joins and the moment a host ends a collaboration session the content is no longer available. Further, temp files created by the IDE/editor to improve performance for the guest are automatically cleaned up when the session ends.
 
-## Downloading and installing
+## Download and install Visual Studio Live Share
 
-Requirements:
+Before you begin, you'll need to be sure you've got a version of Visual Studio or Visual Studio Code installed that meets the core requirements.
 
 - **Visual Studio 2017 (15.6 or higher)** - The latest update of Visual Studio 2017 (any edition) on Windows 7, 8.1, or 10.
 - **Visual Studio Code (1.20.0 or higher)** or **Code Insiders (1.20.0-insiders or higher)** - Windows 7, 8.1, or 10 or macOS Sierra (10.12) and above only.  _El Capitan (10.11) and below are not currently supported due to [.NET Core 2.0 requirements](https://github.com/dotnet/core/blob/master/release-notes/2.0/2.0-supported-os.md)._
 
-Download and setup instructions:
+After that, downloading and installing the Visual Studio Live Share extension is a breeze:
 
 <table style="width: 100%; border-style: none;">
 <tr>
@@ -63,7 +48,9 @@ Download and setup instructions:
 
 By downloading and using Visual Studio Live Share, you agree to the [license terms](https://aka.ms/vsls-license) and [privacy statement](https://www.microsoft.com/en-us/privacystatement/EnterpriseDev/default.aspx). See [troubleshooting](https://aka.ms/vsls-troubleshooting) if you run into problems.
 
-## Signing into Visual Studio Live Share from within your IDE/editor
+## Sign into Visual Studio Live Share
+
+Next you'll need to sign into Visual Studio Live Share so everyone you collaborate with knows who you are. Signing in is easy.
 
 ### Signing in from Visual Studio
 
@@ -89,7 +76,7 @@ If you're been accepted into the private limited preview (session hosts), **use 
 
 Having issues signing in? Check out [troubleshooting](troubleshooting.md#sign-in).
 
-## Starting a collaboration session and sharing
+## Share a project
 
 After downloading and installing Visual Studio Live Share, follow these steps to start a collaboration session and invite a colleague to work with you.
 
@@ -129,10 +116,9 @@ That's it!!
 ### Troubleshooting
 
 Having issues with sharing? Check out [troubleshooting](troubleshooting.md#sharing-and-joining).
+## Join a collaboration session
 
-## Joining a collaboration session
-
-After downloading and installing Visual Studio Live Share, follow these steps to join a collaboration session a colleague has sent you.
+After downloading and installing Visual Studio Live Share, you or a colleague can follow these steps to join a hosted collaboration session as a guest.
 
 1. **Start a discussion with the Collaboration Session Host**
 
@@ -152,7 +138,7 @@ After downloading and installing Visual Studio Live Share, follow these steps to
 
 After joining, you will see the "Share" button (VS) / status bar icons (VS Code) transition to convey a "Session State". See [session states](#session-states) for more information on what this looks like.
 
-### Manually joining
+### Join manually
 
 You can also manually join from within VS or VS Code (rather than clicking on an invite link) which can be useful in situations where the tool you want to use is already running, you want to use a different tool than you usually do, or if you are having trouble with getting invite links to work for some reason. The process is easy:
 
@@ -181,7 +167,35 @@ That's it! You should be connected to the collaboration session momentarily.
 
 Having issues with sharing? Check out [troubleshooting](troubleshooting.md#sharing-and-joining).
 
-## Changing the Connection Mode
+## End or leave the collaboration session
+
+As a host, you can can stop sharing completely and end the collaboration session by clicking the session state button (in the upper right hand corner in VS or the status bar in VS Code) and selecting "End Collaboration Session". All guests will be notified that the session has ended.
+
+**In VS:**
+
+![VS end collaboration session](media/vs-stop-sharing.png) 
+
+**VS Code:**
+
+![VS Code session state item](media/vscode-share-state.png) <br />
+![VS Code end collaboration session menu option](media/vscode-end-collaboration.png)
+
+Guests will no longer be able to access the content and any temp files are automatically cleaned up.
+
+Similarly, as a guest you can leave the collaboration session without ending it for others by simply closing the tool or selecting "Leave Collaboration Session".
+
+**In VS:**
+
+![VS leave collaboration session](media/vs-leave-session.png) 
+
+**In VS Code:**
+
+![VS Code session state item](media/vscode-share-state.png) <br />
+![VS Code leave collaboration session](media/vscode-leave-session.png)
+
+Any temp files are automatically cleaned up so no further action is needed.
+
+## Change the Connection Mode
 
 To ensure optimal performance, by default Visual Studio Live Share automatically detects whether a collaboration session host machine and guest machine can communicate directly over a network and only relays via the cloud if there is no route between them. This mixed "auto" mode is flexible and even allows some guests to relay through the cloud while others connect directly for the same session.
 
@@ -203,48 +217,11 @@ To change the mode:
   - ``"liveshare.connectionMode":"direct"``
   - ``"liveshare.connectionMode":"relay"``
 
-### Troubleshooting
-
 Having issues with connectivity? Check out [troubleshooting](troubleshooting.md#connectivity).
-
-## What can I do with a collaboration session?
-
-Lots of things! Co-editing and co-debugging for example! Take a look at the article for the tool you're using to find out more! 
-
-- [Visual Studio features](collab-vs.md)
-- [Visual Studio Code features](collab-vscode.md)
-
-## Ending or leaving a collaboration session
-
-Hosts can stop sharing completely and end the collaboration session by clicking the session state button (in the upper right hand corner in VS or the status bar in VS Code) and selecting "End Collaboration Session". All guests will be notified that the session has ended.
-
-**In VS:**
-
-![VS end collaboration session](media/vs-stop-sharing.png) 
-
-**VS Code:**
-
-![VS Code session state item](media/vscode-share-state.png) <br />
-![VS Code end collaboration session menu option](media/vscode-end-collaboration.png)
-
-Guests will no longer be able to access the content and any temp files are automatically cleaned up.
-
-Similarly, individual guests can leave the collaboration session without ending it for others by simply closing the tool or selecting "Leave Collaboration Session".
-
-**In VS:**
-
-![VS leave collaboration session](media/vs-leave-session.png) 
-
-**In VS Code:**
-
-![VS Code session state item](media/vscode-share-state.png) <br />
-![VS Code leave collaboration session](media/vscode-leave-session.png)
-
-Any temp files are automatically cleaned up so no further action is needed.
 
 ## Session states
 
-After you have started or joined collaboration session and have access to shared content, the "Share" button in the upper right hand corner in VS and the Visual Studio Live Share status bar icons in Visual Studio Code update their appearance to reflect the state of the active collaboration session. 
+After you have started or joined collaboration session and have access to shared content, the "Share" button in the upper right hand corner in VS and the Visual Studio Live Share status bar icons in Visual Studio Code update their appearance to reflect the state of the active collaboration session.
 
 The following are the states you will typically see:
 
@@ -260,15 +237,8 @@ The following are the states you will typically see:
 
 While there are currently some shortcomings guests will experience while using the features described above, collaboration session hosts retain the complete functionality of their tool of choice. See the following for more information:
 
+- [Summary of language and platform support](platform-support.md)
+- [Overview of 3rd-party extension support](extensions.md)
 - [All major bugs, feature requests, and limitations](https://aka.ms/vsls-issues)
 - [All feature requests and limitations](https://aka.ms/vsls-feature-requests)
-- [Co-editing feature requests and limitations](https://aka.ms/vsls-feature-requests/co-edit)
-- [Co-debugging feature requests and limitations](https://aka.ms/vsls-feature-requests/co-debug)
-
-## More Information
-
-- [Visual Studio features](collab-vs.md)
-- [Visual Studio Code features](collab-vscode.md)
-- [Summary of language and platform support](platform-support.md)
 - [Troubleshooting](troubleshooting.md)
-- [FAQ](https://aka.ms/vsls-faq)

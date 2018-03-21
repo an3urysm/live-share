@@ -11,16 +11,6 @@ Visual Studio Live Share's features are intended to work across a diverse landsc
 
 See a language or platform you need? Want to add one you don't see? [Vote here.](https://github.com/MicrosoftDocs/live-share/issues/12)
 
-**Contents**
-
-- [VS Code](#visual-studio-code)
-  - [Languages](#languages)
-  - [Platforms](#platforms)
-- [Visual Studio](#visual-studio)
-  - [Languages](#languages-1)
-  - [Platforms](#platforms-1)
-
-
 ## Visual Studio Code
 
 All languages / platforms have same file intellisense (when the respective extension is installed), as well as colorization and co-editing support. The lists below covers advanced features currently without complete, universal support:
@@ -148,11 +138,3 @@ While most languages have some single file Intellisense support, there are some 
 <sup>4</sup> Debugging database stored procs is not currently supported <br />
 <sup>5</sup> Via [share local server](collab-vs.md#sharing-a-local-server). <br />
 <sup>?</sup> Not yet validated.
-
-## More information
-
-- [Getting started and managing collaboration sessions](getting-started.md)
-- [Visual Studio enabled features](collab-vs.md)
-- [Visual Studio Code enabled features](collab-vscode.md)
-- [Troubleshooting](troubleshooting.md)
-- [FAQ](https://aka.ms/vsls-faq)

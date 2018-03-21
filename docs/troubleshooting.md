@@ -86,10 +86,10 @@ Visual Studio:
 - Run a search for vsls-agent.exe in your VS install location under **IDE\Extensions**
 - The VS install location is typically C:\Program Files (x86)\Microsoft Visual Studio\Preview\\*EDITION* where **EDITION** is Community, Enterprise, etc 
 
-## More Info
+## See also
 
-- [Getting started and managing collaboration sessions](getting-started.md)
-- [Visual Studio enabled features](collab-vs.md)
-- [Visual Studio Code enabled features](collab-vscode.md)
 - [Summary of language and platform support](platform-support.md)
-- [FAQ](https://aka.ms/vsls-faq)
+- [Overview of 3rd-party extension support](extensions.md)
+- [All major bugs, feature requests, and limitations](https://aka.ms/vsls-issues)
+- [All feature requests and limitations](https://aka.ms/vsls-feature-requests)
+- [Troubleshooting](troubleshooting.md)

@@ -4,29 +4,11 @@ All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
 
-# Visual Studio Enabled Features
+# Visual Studio How-tos
 
-This document provides information on capabilities enabled by the Visual Studio Live Share extension for Visual Studio. See [getting started](getting-started.md) for information on sharing and joining collaboration sessions in VS and other tools.
+Ready to get going with Visual Studio Live share?  This document provides you with some useful how-tos for the Visual Studio Live Share extension for Visual Studio. See [getting started](getting-started.md) for information on sharing and joining collaboration sessions in VS and other tools.
 
-**Table of Contents**
-
-- [Recap: Collaboration session host and guests](#recap-collaboration-session-host-and-guests)
-- [Collaborative editing](#collaborative-editing)
-- [Collaborative debugging](#collaborative-debugging)
-- [Additional capabilities](#additional-capabilities)
-  - [Sharing a local server](#sharing-a-local-server)
-- [Known guest limitations](#known-guest-limitations)
-- [More information](#more-information)
-  - [Getting started and managing collaboration sessions](getting-started.md)
-  - [Visual Studio Code features](collab-vscode.md)
-
-## Recap: Collaboration session host and guests
-
-All collaboration activities in Visual Studio Live Share involve a single **collaboration session host** and one or more **guests**. The host is the person that started the collaboration session and anyone that joins is a guest. See [getting started](getting-started.md) for information on starting and joining collaboration sessions.
-
-Collaboration session hosts can use all of their tools and services as they would normally but guests are only given access to the specific things the host has shared with them. This includes code, running servers, debugging sessions and more.  Currently all content that is shared is kept on the host's machine and not synchronized to the cloud or on the guest's machine which enables _instant access_ and _increased security_.  The advantage is that the entire solution is available the moment a guest joins and the moment a host ends a collaboration session the content is no longer available. Further, temp files created by the IDE/editor to improve performance for the guest are automatically cleaned up when the session ends.
-
-## Collaborative editing
+## Co-Edit
 
 Once a guest has joined a collaboration session, the host other guests will immediately be able to see each others edits and highlights in real-time. Simply select a file from the Solution Explorer and start editing. Guests will see edits as the host or other guests make them and can contribute themselves in real time so you can iterate and rapidly nail to down solutions.
 
@@ -60,7 +42,7 @@ To make it easy to hop in and out of pinning, the editor is un-pinned if any of 
 
 Afterwards you can simply click the pin icon again to follow their location once again.
 
-## Collaborative debugging
+## Co-debug
 
 Visual Studio Live Share's collaborative debugging feature is a powerful and unique way to debug an issue. Beyond enabling a collaborative experience to troubleshoot problems it also gives all collaborators the ability to investigate issues that may be environment specific by providing a shared debugging session on the host's machine.
 
@@ -104,9 +86,7 @@ If you've updated settings so that as a guest you do not auto-attach to a co-deb
 
 ![VS Debug button](media/vs-reattach.png)
 
-## Additional capabilities
-
-### Sharing a local server
+## Share a local server
 
 From time to time, as a collaboration session host you may find that you want to share additional local servers or services with guests. This can range from other RESTful end-points to databases or other servers.  For security purposes, only servers running on ports you specify are available to other guests. Fortunately, its easy to add another one.
 
@@ -130,15 +110,8 @@ To **stop** sharing a local server, the host simply needs to hare state button i
 
 While there are currently some shortcomings guests will experience while using the features described above, collaboration session hosts retain the complete functionality of their tool of choice. See the following for more information:
 
+- [Summary of language and platform support](platform-support.md)
+- [Overview of 3rd-party extension support](extensions.md)
 - [All major bugs, feature requests, and limitations](https://aka.ms/vsls-issues)
 - [All feature requests and limitations](https://aka.ms/vsls-feature-requests)
-- [Co-editing feature requests and limitations](https://aka.ms/vsls-feature-requests/co-edit)
-- [Co-debugging feature requests and limitations](https://aka.ms/vsls-feature-requests/co-debug)
-
-## More information
-
-- [Getting started](getting-started.md)
-- [Visual Studio Code features](collab-vscode.md)
-- [Summary of language and platform support](platform-support.md)
 - [Troubleshooting](troubleshooting.md)
-- [FAQ](https://aka.ms/vsls-faq)
