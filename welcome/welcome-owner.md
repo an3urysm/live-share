@@ -58,7 +58,7 @@ If you signed up with an email that **is not already tied to a Microsoft persona
 
 Open a folder, project, or solution, and simply click "Share" within your tool and an invite link will be automatically copied to your clipboard. 
 
-> **Note:** You may be asked by your desktop firewall software to allow the Live Share agent to open a port the first time you share. Accepting this is entirely optional but enables a secured "direct mode" to improve performance when the person you are working with is on the same network as you are. See [changing the connection mode](../docs/getting-started.md#changing-the-connection-mode) for details.
+> **Note:** You may be asked by your desktop firewall software to allow the Live Share agent to open a port the first time you share. Accepting this is entirely optional but enables a secured "direct mode" to improve performance when the person you are working with is on the same network as you are. See [change the connection mode](../docs/collab-session.md#change-the-connection-mode) for details.
 
 ![VS Share Button](media/vs-share-button.png) ![VS Code Share Button](media/vscode-share-button.png)
 
@@ -83,6 +83,6 @@ That's it!! Want to learn more about what you can do? Check out our documentatio
 Need help and not finding what you need in the docs?
 
 - [See if someone already hit your problem by searching logged issues](https://aka.ms/vsls-issues)
-- [Report a problem](../CONTRIBUTING.md#filing-problem-reports)
+- [Report a problem](../CONTRIBUTING.md#file-a-problem-report)
 - [Up-vote a feature or request a new one](https://aka.ms/vsls-feature-requests)
 - Or you can shoot us a [mail](mailto:vsls-feedback@microsoft.com) questions.

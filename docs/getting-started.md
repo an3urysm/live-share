@@ -78,7 +78,7 @@ Quickstarts
 How-tos
 - [Collaboration Session How-tos](collab-session.md)
 - [Visual Studio Code How-tos](collab-vscode.md)
-- [Visual Studio How-tos](collab-vsmd)
+- [Visual Studio How-tos](collab-vs.md)
 
 Reference
 - [Language and platform support](platform-support.md)

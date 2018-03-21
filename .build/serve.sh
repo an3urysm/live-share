@@ -8,5 +8,4 @@ fi
 if [ -d "vslivesharedocs" ]; then
     rm -rv vslivesharedocs
 fi
-nuget install docfx.console -ExcludeVersion 
 mono docfx.console/tools/docfx.exe --serve docfx.json

@@ -61,7 +61,7 @@ If you signed up with an email that **is not already tied to a Microsoft persona
 
 Open a folder, project, or solution, and simply click "Share" within your tool and an invite link will be automatically copied to your clipboard. 
 
-> **Note:** You may be asked by your desktop firewall software to allow the Live Share agent to open a port the first time you share. Accepting this is entirely optional but enables a secured "direct mode" to improve performance when the person you are working with is on the same network as you are. See [changing the connection mode](collab-session.md#changing-the-connection-mode) for details.
+> **Note:** You may be asked by your desktop firewall software to allow the Live Share agent to open a port the first time you share. Accepting this is entirely optional but enables a secured "direct mode" to improve performance when the person you are working with is on the same network as you are. See [change the connection mode](collab-session.md#change-the-connection-mode) for details.
 
 ![VS Share Button](media/vs-share-button.png) ![VS Code Share Button](media/vscode-share-button.png)
 
@@ -81,7 +81,7 @@ That's it!! Once your colleague has joined the collaboration session you'll be u
 - [Quickstart: Join your first session](quick-start-join.md)
 - [Collaboration Session How-tos](collab-session.md)
 - [Visual Studio Code How-tos](collab-vscode.md)
-- [Visual Studio How-tos](collab-vsmd)
+- [Visual Studio How-tos](collab-vs.md)
 
 Reference
 - [Language and platform support](platform-support.md)

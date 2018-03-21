@@ -47,7 +47,7 @@ After installing Visual Studio Live Share for your IDE/editor, simply open (or r
 
 You should be notified that your browser wants to launching your Visual Studio Live Share enabled tool and if you accept it the IDE/editor will launch and automatically start the process of joining the collaboration session.
 
-> **Troubleshooting Tip:** When using VS Code, be sure you've **started the tool at least once** after installing Visual Studio Live Share before opening/re-opening the invite page. Still having trouble? See [manually joining](../docs/getting-started.md#manually-joining) in our docs.
+> **Troubleshooting Tip:** When using VS Code, be sure you've **started the tool at least once** after installing Visual Studio Live Share before opening/re-opening the invite page. Still having trouble? See [manually joining](../docs/collab-session.md#join-manually) in our docs.
 
 ### 4. Sign in from within your IDE/editor
 
@@ -69,7 +69,7 @@ That's it!! In a few moments you'll be connected to your colleague's collaborati
 Need help and not finding what you need in the docs?
 
 - [See if someone already hit your problem by searching logged issues](https://aka.ms/vsls-issues)
-- [Report a problem](../CONTRIBUTING.md#filing-problem-reports)
+- [Report a problem](../CONTRIBUTING.md#file-a-problem-report)
 - [Up-vote a feature or request a new one](https://aka.ms/vsls-feature-requests)
 - Or you can shoot us a [mail](mailto:vsls-feedback@microsoft.com) questions.
 
