@@ -4,15 +4,17 @@ All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
 
-# Join your first collaboration session
+# Quickstart: Join your first collaboration session
 
 Welcome to Visual Studio Live Share! Live Share lets you to achieve greater confidence at speed by streamlining collaborative editing, debugging, and more in real-time during development. You get real-time sharing in tools you love, can share the full context of your code, collaboratively edit while still navigating files independently, securely share local servers, and even collaboratively debug while still retaining the ability to inspect on your own.
 
 Ready to get going? Team collaboration should be so quick and natural, that it becomes harder not to do it! For this reason, Visual Studio Live Share makes it simple to get started, so that you can seamlessly begin sharing your work and ideas.
 
-Just follow these steps to join a collaboration session:
+Just follow these steps to join a collaboration session.
 
-## 1. Download and install Visual Studio Live Share
+## 1. Install the extension
+
+Installing the extension is easy. Just follow these steps:
 
 <table style="width: 100%; border-style: none;">
 <tr>
@@ -21,7 +23,7 @@ Just follow these steps to join a collaboration session:
         <strong>Visual Studio 2017 15.6 or higher</strong><br />
        1. Install the latest update of <a href="https://www.visualstudio.com/vs/">VS 2017</a> (15.6+) on Windows (7, 8.1, or 10).<br/>
        2. Install a supported workload. e.g. ASP.NET, .NET Core, and/or Node.js<br />
-       3. Download and install the Visual Studio Live Share extension from the marketplace. <br />
+       3. Download and install the VS Live Share extension from the marketplace. <br />
        <a href="https://aka.ms/vsls-dl/vs"><img style="padding: 0; spacing: 0;" src="media/download.png"></a><br />
     </td>
 </tr>
@@ -30,7 +32,7 @@ Just follow these steps to join a collaboration session:
     <td>
         <strong>Visual Studio Code</strong><br />
         1. Install <a href="https://code.visualstudio.com/">Visual Studio Code</a> (1.20.0+) for Windows (7, 8.1, or 10) or macOS <b>(Sierra & up).</b><br />
-        2. Download and install the Visual Studio Live Share extension from the marketplace. <br />
+        2. Download and install the VS Live Share extension from the marketplace. <br />
         3. Reload and wait for dependencies to download and install (see status bar).<br />
         <a href="https://aka.ms/vsls-dl/vscode"><img src="media/download.png"></a>
     </td>
@@ -65,9 +67,7 @@ Interested in joining the private limited preview so you can create collaboratio
 
 ## See also
 
-Want to learn more about what you can do? Check out the following information.
-
-- [Quick start: Share your first project](collab-session.md)
+- [Quickstart: Share your first project](quick-start-share.md)
 - [Collaboration Session How-tos](collab-session.md)
 - [Visual Studio Code How-tos](collab-vscode.md)
 - [Visual Studio How-tos](collab-vsmd)

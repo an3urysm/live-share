@@ -1,8 +1,8 @@
-# Collaboration Session How-tos
+# Collaboration session how-tos
 
 In this article, we'll run you through series of detailed how-tos that will help you work with collaboration sessions in Visual Studio Live Share. Information on concepts or installing Visual Studio Live Share can be [found in the overview](getting-started.md).
 
-If you're looking for an abridged version, check out the [share](quick-start-share.md) and [join](quick-start-join.md) quick starts.
+If you're looking for an abridged version, check out the [share](quick-start-share.md) and [join](quick-start-join.md) quickstarts.
 
 ## Sign into Visual Studio Live Share
 
@@ -152,7 +152,7 @@ Similarly, as a guest you can leave the collaboration session without ending it 
 
 Any temp files are automatically cleaned up so no further action is needed.
 
-## Change the Connection Mode
+## Change the connection mode
 
 To ensure optimal performance, by default Visual Studio Live Share automatically detects whether a collaboration session host machine and guest machine can communicate directly over a network and only relays via the cloud if there is no route between them. This mixed "auto" mode is flexible and even allows some guests to relay through the cloud while others connect directly for the same session.
 
@@ -176,7 +176,7 @@ To change the mode:
 
 Having issues with connectivity? Check out [troubleshooting](troubleshooting.md#connectivity).
 
-## Session states
+## Understand the session state
 
 After you have started or joined collaboration session and have access to shared content, the "Share" button in the upper right hand corner in VS and the Visual Studio Live Share status bar icons in Visual Studio Code update their appearance to reflect the state of the active collaboration session.
 
@@ -190,7 +190,7 @@ The following are the states you will typically see:
 | Guest: Joining Session | ![VS Code status: joining](media/vs-status-joining.png) | ![VS Code status: joining](media/vscode-status-joining.png)| Joining an existing collaboration session. |
 | Guest: Joined | ![VS Code status: joined](media/vs-status-joined.png) | ![VS Code status: joined](media/vscode-status-active.png) | Joined and connected to an active collaboration session and receiving shared content. |
 
-## Known guest limitations
+## Understand guest limitations
 
 While there are currently some shortcomings guests will experience while using the features described above, collaboration session hosts retain the complete functionality of their tool of choice. See the following for more information:
 
@@ -202,8 +202,8 @@ While there are currently some shortcomings guests will experience while using t
 
 ## See also
 
-- [Quick start: Share your first project](quick-start-share.md)
-- [Quick start: Join your first session](quick-start-join.md)
+- [Quickstart: Share your first project](quick-start-share.md)
+- [Quickstart: Join your first session](quick-start-join.md)
 - [Visual Studio Code How-tos](collab-vscode.md)
 - [Visual Studio How-tos](collab-vsmd)
 - [Troubleshooting](troubleshooting.md)

@@ -4,7 +4,7 @@ All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
 
-# Visual Studio Code How-tos
+# Visual Studio Code how-tos
 
 Ready to get going with Visual Studio Live share? This article provides you with some useful how-tos for the Visual Studio Live Share extension for Visual Studio Code. See [collaboration session how-tos](collab-session.md) for information on sharing and joining collaboration sessions in VS Code and other tools.
 ## Use the scoped command menu
@@ -41,7 +41,7 @@ If there is more than one other person in the collaboration session, clicking on
 
 ![Screen shot showing list of collaborators](media/vscode-list-collaborators.png)
 
-### Pinning to a collaborator's edit location
+### Follow a collaborator via pinning
 
 At times the person you are collaborating with may need to show you a few different places in code to explain a problem or possible solution. While you could repeatedly jump to their location as described above you can also "pin" a tab set to their location.
 
@@ -128,7 +128,7 @@ To **stop** sharing a local server, the host simply needs to click the session s
 
 ![VS Code stop sharing server](media/vscode-stop-sharing-server.png)<br />
 
-## Known guest limitations
+## Understand guest limitations
 
 While there are currently some shortcomings guests will experience while using the features described above, collaboration session hosts retain the complete functionality of their tool of choice. See the following for more information:
 
@@ -140,8 +140,8 @@ While there are currently some shortcomings guests will experience while using t
 
 ## See also
 
-- [Quick start: Share your first project](collab-session.md)
-- [Quick start: Join your first session](collab-session.md)
+- [Quickstart: Share your first project](quick-start-share.md)
+- [Quickstart: Join your first session](quick-start-join.md)
 - [Collaboration Session How-tos](collab-session.md)
 - [Visual Studio How-tos](collab-vsmd)
 - [Provide feedback](support.md)

@@ -13,8 +13,8 @@ Have a question or feedback? There are many ways to contribute. We want to hear 
 Our docs may have what you need!
 
 - [Troubleshooting](troubleshooting.md)
-- [Summary of language and platform support](platform-support.md)
-- [Summary of language and platform support](platform-support.md)
+- [Language and platform support](platform-support.md)
+- [Extension support](extension.md)
 - [FAQ](https://aka.ms/vsls-faq)
 
 ## Issues and Requests

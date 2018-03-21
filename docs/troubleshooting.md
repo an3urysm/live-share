@@ -35,7 +35,7 @@ The following are troubleshooting tips for sign in problems.
 | All | You signed up and were accepted into the preview using an <strong>email address not tied to a Microsoft work, school, or personal account or GitHub account</strong>. | A simple resolution is to add this email address as a secondary email to your GitHub account and sign in that way. VS Live Share simply validates that an accepted email is in your profile when you sign in with GitHub. (Note: Use Tools > Options > Live Share > User account to sign in via GitHub from Visual Studio.) <br /><br /> If that won't work, send a mail to [vsls-feedback@microsoft.com](mailto:vsls-feedback@microsoft.com) and we will switch out your email address.<br /><br />If you have not signed up, you can do so [here](https://aka.ms/vsls-signup) and we will let you know when you've been accepted. |
 | All | When signing in using a Microsoft backed **work or school email address** you see a message saying, **"Need admin approval"**. | Your Azure AD tenet is setup to require “admin consent” for new applications accessing the contents of the directory. Your AD admin would need to resolve this for you but it would only need to be done once for anyone using Live Share. See [here](https://stackoverflow.com/questions/39861830/azure-ad-admin-consent-from-the-azure-portal) and [here](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-scopes#admin-restricted-scopes).<br /><br />If this is not possible, contact vsls-feedback@microsoft.com and ask to switch to a personal Microsoft account or a GitHub account instead. |
 
-## Sharing and Joining
+## Share and Join
 
 The following are troubleshooting tips for sign in problems.
 
