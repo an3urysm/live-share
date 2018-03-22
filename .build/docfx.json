@@ -27,14 +27,11 @@
       }
     ],
     "globalMetadata": {
-      "_disableToc": false,
-      "_enableSearch": true,
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/live-share",
       "feedback_product_url": "https://aka.ms/vsls-issues/",
       "titleSuffix": "Visual Studio Live Share"
     },
-    "dest": "vslivesharedocs",
-    "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ]
+    "dest": "vslivesharedocs"  
   }
 }

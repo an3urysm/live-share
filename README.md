@@ -17,7 +17,7 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 While the initial focus of Visual Studio Live Share is real-time collaborative development of Node.js and ASP.NET/ASP.NET Core based web applications and services, [many features are broadly available](docs/platform-support.md) and more will be coming in the future. *It is currently in a limited, private preview.* [Sign up!](https://aka.ms/vsls-signup)
 
-[![Slack](docs/media/Slack_Mark-24x24.png)](https://aka.ms/vsls-slack) [![Twitter](docs/media/Twitter_Social_Icon_24x24.png)](https://twitter.com/search?f=tweets&q=%23vsliveshare&src=typd) [![Mail](docs/media/icon-mail-24x24.png)](mailto:vsls-feedback@microsoft.com)
+[![Slack](docs/media/Slack_Mark-24x24.png)](https://aka.ms/vsls-slack) [![Twitter](docs/media/Twitter_Social_Icon_24x24.png)](https://aka.ms/vsls-twitter) [![Mail](docs/media/icon-mail-24x24.png)](mailto:vsls-feedback@microsoft.com)
 
 ## Quick Starts
 
@@ -41,10 +41,10 @@ While the initial focus of Visual Studio Live Share is real-time collaborative d
 
 ## Download and install Visual Studio Live Share
 
-<table style="width: 100%; border-style: none;">
-<tr style="border:none;">
+<table style="width: 100%; border:none;">
+<tr>
     <td style="width: 128px; text-align: center; border:none;"><img src="docs/media/vs-icon.png" /></td>
-    <td style="border:none;">
+    <td  style="border:none;">
         <strong>Visual Studio 2017 15.6 or higher</strong><br />
        1. Install the latest version of <a href="https://www.visualstudio.com/vs/">VS 2017</a> (15.6+) on Windows (7, 8.1, or 10).<br/>
        2. Install a supported workload. e.g. ASP.NET, .NET Core, and/or Node.js<br />
@@ -74,7 +74,7 @@ Have a question or feedback? There are many ways to contribute.
 - Search [existing bugs](https://aka.ms/vsls-bugs) or [report a problem](CONTRIBUTING.md#file-a-problem-report)
 - Shoot us a [mail](mailto:vsls-feedback@microsoft.com) with suggestions or questions
 - Jump on [Slack](https://aka.ms/vsls-slack) to chat with the team
-- Hit us up on Twitter using [#vsliveshare](https://twitter.com/search?f=tweets&q=%23vsliveshare&src=typd)!
+- Hit us up on Twitter using [#vsliveshare](https://aka.ms/vsls-twitter)!
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
@@ -89,5 +89,3 @@ License for documentation:
     Copyright © Microsoft Corporation
     All rights reserved.
     Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
-
-

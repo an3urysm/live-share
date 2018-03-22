@@ -19,20 +19,20 @@ Before you begin, you'll need to be sure you've got a version of Visual Studio o
 
 After that, downloading and installing the Visual Studio Live Share extension is a breeze:
 
-<table style="width: 100%; border-style: none;">
+<table style="width: 100%; border:none;">
 <tr>
     <td style="width: 128px; text-align: center; border:none;"><img src="media/vs-icon.png" /></td>
-    <td>
+    <td  style="border:none;">
         <strong>Visual Studio 2017 15.6 or higher</strong><br />
-       1. Install the latest update of <a href="https://www.visualstudio.com/vs/">VS 2017</a> (15.6+) on Windows (7, 8.1, or 10).<br/>
+       1. Install the latest version of <a href="https://www.visualstudio.com/vs/">VS 2017</a> (15.6+) on Windows (7, 8.1, or 10).<br/>
        2. Install a supported workload. e.g. ASP.NET, .NET Core, and/or Node.js<br />
        3. Download and install the VS Live Share extension from the marketplace. <br />
        <a href="https://aka.ms/vsls-dl/vs"><img style="padding: 0; spacing: 0;" src="media/download.png"></a><br />
     </td>
 </tr>
-<tr>
+<tr style="border:none;">
     <td style="width: 128px; text-align: center; border:none;"><img src="media/vscode-icon.png" /></td>
-    <td>
+    <td style="border:none;">
         <strong>Visual Studio Code</strong><br />
         1. Install <a href="https://code.visualstudio.com/">Visual Studio Code</a> (1.20.0+) for Windows (7, 8.1, or 10) or macOS <b>(Sierra & up).</b><br />
         2. Download and install the VS Live Share extension from the marketplace. <br />
@@ -92,13 +92,13 @@ Learn more: [![VS Code](media/vscode-icon-15x15.png)](collab-vscode.md#co-debug)
 When co-debugging, it can be really useful to get access to different parts of the application being served up by host for the debugging session. You  may want to access the app in a browser, access a local database, or hit a REST endpoint from your tools. Live Share lets you "share a local server" which maps a local port on the host's machine to the exact same port on guest's machine. As a guest, you can then interact with the application exactly as if it was running locally on your machine (e.g. the host and guest can both access a web app running on http://localhost:3000).
 
 Learn more: [![VS Code](media/vscode-icon-15x15.png)](collab-vscode.md#share-a-local-server) [![VS](media/vs-icon-15x15.png)](collab-vs.md#share-a-local-server)
-
+<!--
 #### Share a terminal
 
 Mordern development makes frequent use of an array of command line tools. Fortuantley, Live Share allows you as a host to optionally "share a terminal" with guests. The shared terminal is fully collaborative so both you and the guests can all run commands and see the results. As the host, you're able to allow other collaborators to use any number of command line tools to run tests, builds, or even triage environment specific problems. Since the terminal is only accessible to collaborators in the session and you can see exactly what everyone is doing, you'll be able to gain additional insights while still being confident that only those you trust have access. 
 
 Learn more: [![VS Code](media/vscode-icon-15x15.png)](collab-vscode.md#share-a-terminal) [![VS](media/vs-icon-15x15.png)](collab-vs.md#share-a-terminal)
-
+-->
 #### Flexible connection modes
 
 To ensure optimal performance, Visual Studio Live Share supports to core "connection modes": "direct" and "relay." In direct mode, guests connect directly to the host without going through the web. Relay mode allows guests located in a completely different network to connect to the host via an internet relay. In all cases connections are SSH or SSL encrypted to ensure only collaborators get access to what is going over the wire. By default, Live Share is in "auto" mode which first attempts a direct connection and then fails over to the relay but if you prefer, you can lock into a single mode.
