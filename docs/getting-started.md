@@ -89,7 +89,7 @@ Learn more: [![VS Code](media/vscode-icon-15x15.png)](collab-vscode.md#co-debug)
 
 #### Share local servers / Share ports
 
-When co-debugging, it can be really useful to get access to different parts of the application being served up by host for the debugging session. You  may want to access the app in a browser, access a local database, or hit a REST endpoint from your tools. Live Share lets you "share a local server" which maps a local port on the host's machine to the exact same port on guest's machine. As a guest, you can then interact with the application exactly as if it was running locally on your machine (e.g. the host and guest can both access a web app running on http://localhost:3000).
+When co-debugging, it can be really useful to get access to different parts of the application being served up by the host for the debugging session. You  may want to access the app in a browser, access a local database, or hit a REST endpoint from your tools. Live Share lets you "share a local server" which maps a local port on the host's machine to the exact same port on guest's machine. As a guest, you can then interact with the application exactly as if it was running locally on your machine (e.g. the host and guest can both access a web app running on http://localhost:3000).
 
 Learn more: [![VS Code](media/vscode-icon-15x15.png)](collab-vscode.md#share-a-local-server) [![VS](media/vs-icon-15x15.png)](collab-vs.md#share-a-local-server)
 
