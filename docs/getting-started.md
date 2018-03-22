@@ -107,7 +107,7 @@ Learn more: [![VS Code](media/vscode-icon-15x15.png)](collab-session.md#change-t
 
 #### Scoped command menu
 
-Sometimes searching the command palette in VS Code can be a bit overwhelming. Live Share has a "scoped command menu" that ou can access by clicking on the sign in status bar item. You'll be automatically presented list of commands that are available given the current state of your collaboration session so you can get up and running quickly.
+Sometimes searching the command palette in VS Code can be a bit overwhelming. Live Share has a "scoped command menu" that you can access by clicking on the sign in status bar item. You'll be automatically presented list of commands that are available given the current state of your collaboration session so you can get up and running quickly.
 
 Learn more: [![VS Code](media/vscode-icon-15x15.png)](collab-vscode.md#use-the-scoped-command-menu)
 ## See also
