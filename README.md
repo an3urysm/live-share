@@ -42,9 +42,9 @@ While the initial focus of Visual Studio Live Share is real-time collaborative d
 ## Download and install Visual Studio Live Share
 
 <table style="width: 100%; border-style: none;">
-<tr>
+<tr style="border:none;">
     <td style="width: 128px; text-align: center; border:none;"><img src="docs/media/vs-icon.png" /></td>
-    <td>
+    <td style="border:none;">
         <strong>Visual Studio 2017 15.6 or higher</strong><br />
        1. Install the latest version of <a href="https://www.visualstudio.com/vs/">VS 2017</a> (15.6+) on Windows (7, 8.1, or 10).<br/>
        2. Install a supported workload. e.g. ASP.NET, .NET Core, and/or Node.js<br />
@@ -52,9 +52,9 @@ While the initial focus of Visual Studio Live Share is real-time collaborative d
        <a href="https://aka.ms/vsls-dl/vs"><img style="padding: 0; spacing: 0;" src="docs/media/download.png"></a><br />
     </td>
 </tr>
-<tr>
+<tr style="border:none;">
     <td style="width: 128px; text-align: center; border:none;"><img src="docs/media/vscode-icon.png" /></td>
-    <td>
+    <td style="border:none;">
         <strong>Visual Studio Code</strong><br />
         1. Install <a href="https://code.visualstudio.com/">Visual Studio Code</a> (1.20.0+) for Windows (7, 8.1, or 10) or macOS <b>(Sierra & up).</b><br />
         2. Download and install the VS Live Share extension from the marketplace. <br />

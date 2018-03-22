@@ -35,9 +35,9 @@ If you run into trouble, check out [troubleshooting](troubleshooting.md#sign-in)
 ## Share a project
 
 After downloading and installing Visual Studio Live Share, follow these steps to start a collaboration session and invite a colleague to work with you.
-### Step-by-step
 
-#### 1. **Sign up for the Visual Studio Live Share preview**
+
+#### 1. Sign up for the preview
 
 In order to start a collaboration session while Visual Studio Live Share is in private limited preview, you'll need to be signed up and accepted into the preview to be able to share. Visual Studio users should use their [personalization account](https://docs.microsoft.com/en-us/visualstudio/ide/signing-in-to-visual-studio) credentials to sign up.
 
@@ -45,11 +45,11 @@ In order to start a collaboration session while Visual Studio Live Share is in p
 
 If you have not done so, **[sign up now!](https://aka.ms/vsls-signup)** 
 
-#### 2. **Sign in**
+#### 2. Sign in
 
 Once you've been accepted into the preview, sign into Visual Studio Live Share with the credentials you used to sign-up. See [sign into Visual Studio Live Share](#sign-into-visual-studio-live-share).
 
-#### 3. **Start a collaboration session**
+#### 3. Start a collaboration session
 
 Open a folder, project, or solution you want to share and simply click the "Share" button (VS) / status bar icon (VS Code) in your tool.
 
@@ -75,7 +75,6 @@ If you're using VS Code, you can also hit **Ctrl+Shift+P** and select the "Live 
 
 > **Note:** You may be asked by your desktop firewall software to allow the Live Share agent to open a port the first time you share. Accepting this is entirely optional but enables a secured "direct mode" to improve performance when the person you are working with is on the same network as you are. See [change the connection mode](#change-the-connection-mode) for details.
 
-
 An invite link will be automatically copied to your clipboard. When opened in a browser, this link allows others to join a new collaboration session that shares contents of these folders with them.
 
 You will also see the "Share" button / status bar icon transition to convey a "Session State". See [understand the session state](#understand-the-session-state) for more information on what this looks like.
@@ -85,13 +84,13 @@ Note that if you need to get the invite link again after you've started sharing,
 - **VS:** Click on the share / session state button and select "Copy Link"  
 - **VS Code**: Click the session state status bar icon and select "Invite Others (Copy Link)".
 
-#### 4. **Send someone the invite link**
+#### 4. Send someone the link
 
 Send the link over e-mail, Slack, Skype, etc. and once they join you can start collaborating! The person you invite will be able to download, install needed tools, and join the collaboration session without having to sign up or be accepted into the preview.
 
 That's it!!
 
-### Stop sharing
+### End the collaboration session
 
 As a host, you can can stop sharing completely and end the collaboration session by clicking the session state button (in the upper right hand corner in VS or the status bar in VS Code) and selecting "End Collaboration Session". All guests will be notified that the session has ended.
 
@@ -131,11 +130,11 @@ After downloading and installing Visual Studio Live Share, you or a colleague ca
 
 The easiest way to join a collaboration session is to simply open the invite link in a web browser. Here's what you can expect when you follow this flow.
 
-#### 1. **Start a discussion with the Collaboration Session Host**
+#### 1. Start a discussion with the Collaboration Session Host
 
 It's always good to start up a conversation via voice or chat in your favorite client before joining a collaboration session since you'll obviously need to communicate to collaborate. In addition, as [outlined in the overview](getting-started.md#collaboration-sessions) the collaboration session requires the session host to be connected to the service to operate so you'll want to check in with them.
 
-#### 2. **Click on the invite link / open the invite in your browser**
+#### 2. Click on the invite link / open the invite in your browser
 
 After installing Visual Studio Live Share for your tool, simply open (or re-open) the invite web page using the invite link your colleague sent you. 
 
@@ -147,11 +146,13 @@ You should be notified that your browser wants to launching your Visual Studio L
 
 ![Join page](media/join-page.png)
 
-#### 3. **Sign in**
+#### 3. Sign in
 
 To let other collaborators know who you are, you may be asked to sign in during the join process using a GitHub or Microsoft account if you are not already signed in. See [sign into Visual Studio Live Share](#sign-into-visual-studio-live-share). You **do not need to be signed up or accepted into the private limited preview** to participate in a collaboration session and will not receive email updates by simply signing into a collaboration session.
 
-#### 4. That's it!! In a few moments you'll be connected and you can start collaborating.
+#### 4. Collaborate
+
+That's it!! In a few moments you'll be connected and you can start collaborating.
 
 After joining, you will see the "Share" button (VS) / status bar icons (VS Code) transition to convey a "Session State". See [understand the session state](#understand-the-session-state) for more information on what this looks like.
 
@@ -159,11 +160,11 @@ After joining, you will see the "Share" button (VS) / status bar icons (VS Code)
 
 You can also manually join from within VS or VS Code (rather than clicking on an invite link) which can be useful in situations where the tool you want to use is already running, you want to use a different tool than you usually do, or if you are having trouble with getting invite links to work for some reason. The process is easy:
 
-#### 1. **Sign in**
+#### 1. Sign in
 
 See [sign into Visual Studio Live Share](#sign-into-visual-studio-live-share) if you have not already. You do not need to be part of the private limited preview to join a collaboration session.
 
-#### 2. **Start the manual join process**
+#### 2. Use the join command
 
 The location of the manual join command differs between Visual Studio Code and Visual Studio.
 
@@ -190,7 +191,7 @@ The location of the manual join command differs between Visual Studio Code and V
 </tr>
 </table>
 
-#### 3. **Paste the invite link**
+#### 3. Paste the invite link
 
 Paste in the invite URL you were sent and confirm.
 

@@ -8,7 +8,7 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 Ready to get going with Visual Studio Live share? This article provides you with some useful how-tos for the Visual Studio Live Share extension for Visual Studio. See [collaboration session how-tos](collab-session.md) for information on sharing and joining collaboration sessions in VS and other tools.
 
-## Co-Edit
+## Co-edit
 
 Once a guest has joined a collaboration session, the host other guests will immediately be able to see each others edits and highlights in real-time. Simply select a file from the Solution Explorer and start editing. Guests will see edits as the host or other guests make them and can contribute themselves in real time so you can iterate and rapidly nail to down solutions.
 
@@ -64,7 +64,7 @@ Each collaborator can investigate different variables, jump to different files i
 
 > **Tip:** You can participate in VS Code debugging sessions from VS and vice versa! If the host is using VS Code, you can check out the [VS Code instructions](collab-vscode.md#co-debug) but the steps are roughly the same. 
 
-## Automatic web app sharing during debugging
+### Automatic web app sharing
 
 Even better, for ASP.NET Web App projects, by default if the host's project is configured to automatically start a web browser to connect to the running web application when debugging, Live Share will automatically do the same on each guest's machine!  This is done in a secure way and the remote web application is only available to the guests during the debugging session by default.  
 
@@ -74,9 +74,9 @@ See [share a local server](#share-a-local-server) for information on how to shar
 
 ![Animation of concurrent debugging](media/co-debug.gif)
 
-## Detaching, attaching, or reattaching to a co-debugging session
+### Detaching and reattaching
 
-Since guests may wish to stop debugging temporarily, they can simply click the "stop" icon in the debug toolbar to detatch the debugger without affecting the host or other guests.
+As a guest, you may wish to stop debugging temporarily. Fortunatley, you can simply click the "stop" icon in the debug toolbar to detatch the debugger without affecting the host or other guests.
 
 If you've updated settings so that as a guest you do not auto-attach to a co-debugging session or if you simply want to re-attach later, you can simply select the desired running debugging session from the "Select Startup Item..." dropdown...
 
@@ -88,21 +88,28 @@ If you've updated settings so that as a guest you do not auto-attach to a co-deb
 
 ## Share a local server
 
-From time to time, as a collaboration session host you may find that you want to share additional local servers or services with guests. This can range from other RESTful end-points to databases or other servers.  For security purposes, only servers running on ports you specify are available to other guests. Fortunately, its easy to add another one.
+From time to time, as a collaboration session host you may find that you want to share additional local servers or services with guests. This can range from other RESTful end-points to databases or other servers. Visual Studio Live Share lets you specify a local port number, optionally give it a name, and then share it with all guests.
+
+The guests will then be able to access the server you shared on that port from their own local machine on the exact same port. For example, if you shared a web server running on port 3000, the guest can access that same running web server on their own machine at http://localhost:3000! This is accomplished via a secure SSH or SSL tunnel between the host and guests and authenticated via the service so you can be sure that only those in the collaboration session have access.
+
+For security purposes, only servers running on ports you specify are available to other guests. Fortunately, its easy to add one as the collaboration session **host**. Here's how:
+
 
 1. Click on the session state button in the upper right corner and select "Manage Shared Local Servers"
 
-![Manage Shared Local Servers](media/vs-share-local-servers.png)
+    ![Manage Shared Local Servers](media/vs-share-local-servers.png)
 
 2. In the dialog that appears, click "Add" and enter the port number the server is running on locally and a name, hit enter, then OK.
 
-![Manage Shared Local Servers](media/vs-manage-local-shared-servers.png)
+    ![Manage Shared Local Servers](media/vs-manage-local-shared-servers.png)
 
-That's it!
+That's it! The server on the port you specified will now be mapped to each guest's localhost on the same port (unless that port was already occupied)!
 
-Guests will now be able to use this same port from their machine to access the server or service if it is free. Otherwise it will be automatically mapped to a free port. You can view shared local servers by clicking the session state button in the upper right corner and selecting "View Shared Local Servers."
+If the port is already in use on a guest's machine, a different one is automatically selected. Fortunately, as a guest you can see a list of currently shared ports (by name if specified) by clicking the session state button in the upper right corner and selecting "View Shared Local Servers."
 
 ![Viw Shared Local Servers](media/vs-view-shared-servers.png)
+
+Note that *guests cannot* control which ports on the host's machine are shared for security reasons.
 
 To **stop** sharing a local server, the host simply needs to hare state button in the upper right corner as above, select "Manage Shared Local Servers", and select the appropriate port, and click "Remove".
 

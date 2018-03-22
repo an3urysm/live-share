@@ -19,7 +19,7 @@ This document will assume you are using this command menu but note that these co
 
 ## Co-edit
 
-Once a guest has joined a collaboration session all collaborators will immediately be able to see each others edits and highlights in real-time. 
+Once a guest has joined a collaboration session all collaborators will immediately be able to see each others edits and highlights in real-time.
 
 Simply select a file from the file explorer and start editing. Guests will see edits as you make them and can contribute themselves in real time so you can iterate and rapidly nail to down solutions.
 
@@ -86,9 +86,9 @@ Each collaborator can investigate different variables, jump to different files i
 
 ![Animation of concurrent debugging](media/co-debug.gif)
 
-## Detaching, attaching, or reattaching to a co-debugging session
+### Detaching and reattaching
 
-Since guests may wish to stop debugging temporarily, they can simply click the "stop" icon in the debug toolbar to detatch the debugger without affecting the host or other guests.
+As a guest, you may wish to stop debugging temporarily. Fortunatley, you can simply click the "stop" icon in the debug toolbar to detatch the debugger without affecting the host or other guests.
 
 If you've updated settings so that as a guest you do not auto-attach to a co-debugging session or if you simply want to re-attach later, you can use click on the session state status bar icon and then select the "Attach to a Shared Debugging Session" from the scoped command menu.
 
@@ -104,9 +104,13 @@ In addition, you can manually share the application or other endpoints like REST
 
 ## Share a local server
 
-From time to time, as a collaboration session host you may find that you want to share additional local servers or services with guests. This can range from other RESTful end-points to databases or other servers.  For security purposes, only servers running on ports you specify are available to other guests. Fortunately, its easy to add another one.
+From time to time, as a collaboration session host you may find that you want to share additional local servers or services with guests. This can range from other RESTful end-points to databases or other servers. Visual Studio Live Share lets you specify a local port number, optionally give it a name, and then share it with all guests.
 
-1. First, the host should click on the session state status bar icon.
+The guests will then be able to access the server you shared on that port from their own local machine on the exact same port. For example, if you shared a web server running on port 3000, the guest can access that same running web server on their own machine at http://localhost:3000! This is accomplished via a secure SSH or SSL tunnel between the host and guests and authenticated via the service so you can be sure that only those in the collaboration session have access.
+
+For security purposes, only servers running on ports you specify are available to other guests. Fortunately, its easy to add one as the collaboration session **host**. Here's how:
+
+1. Click on the session state status bar icon.
 
     ![VS Code session state icon](media/vscode-share-state.png)<br />
 
@@ -118,13 +122,15 @@ From time to time, as a collaboration session host you may find that you want to
 
     ![Screen shot of port number prompt](media/vscode-enter-port.png)<br />
 
-That's it!
+That's it! The server on the port you specified will now be mapped to each guest's localhost on the same port (unless that port was already occupied)! 
 
-Optionally, guests can see a list of currently shared ports (by name if specified) by clicking on the session state status bar icon as above and selecting "Access Shared Server".  Selecting one copies it to the clipboard.
+If the port is already in use on the guests machine, a different one is automatically selected. Fortunately, as a guest you can see a list of currently shared ports (by name if specified) by clicking on the session state status bar icon as above and selecting "Access Shared Server".  Selecting one copies it to the clipboard.
 
 ![VS Code access local server](media/vscode-access-shared-server.png)<br />
 
-To **stop** sharing a local server, the host simply needs to click the session state status bar icon as above, select "Stop Sharing Local Server", and select the port they want to stop sharing.
+Note that *guests cannot* control which ports on the host's machine are shared for security reasons.
+
+To **stop** sharing a local server as the host, you simply click the session state status bar icon as above, select "Stop Sharing Local Server", and select the port they want to stop sharing.
 
 ![VS Code stop sharing server](media/vscode-stop-sharing-server.png)<br />
 
