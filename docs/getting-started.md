@@ -95,7 +95,7 @@ Learn more: [![VS Code](media/vscode-icon-15x15.png)](collab-vscode.md#share-a-l
 <!--
 #### Share a terminal
 
-Mordern development makes frequent use of an array of command line tools. Fortuantley, Live Share allows you as a host to optionally "share a terminal" with guests. The shared terminal is fully collaborative so both you and the guests can run commands and see the results. As the host, you're able to allow other collaborators to use any number of command line tools to run tests, builds, or even triage environment specific problems. Since the terminal is only accessible to collaborators in the session and you can see exactly what everyone is doing, you'll be able to gain additional insights while still being confident that only those you trust have access. 
+Modern development makes frequent use of an array of command line tools. Fortunately, Live Share allows you as a host to optionally "share a terminal" with guests. The shared terminal is fully collaborative so both you and the guests can run commands and see the results. As the host, you're able to allow other collaborators to use any number of command line tools to run tests, builds, or even triage environment specific problems. Since the terminal is only accessible to collaborators in the session and you can see exactly what everyone is doing, you'll be able to gain additional insights while still being confident that only those you trust have access. 
 
 Learn more: [![VS Code](media/vscode-icon-15x15.png)](collab-vscode.md#share-a-terminal) [![VS](media/vs-icon-15x15.png)](collab-vs.md#share-a-terminal)
 -->
