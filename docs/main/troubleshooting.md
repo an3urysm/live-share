@@ -58,9 +58,9 @@ The following are troubleshooting tips for sign in problems.
 
 | Tool | Problem | Resolution / Workaround |
 |------|----------------|------------|
-| VS | As a guest, you <strong>were not prompted / able to launch VS / VS Code</strong> after opening the join page in the browser. |  See [join manually](collab-session.md#join-manually).<br /><br /> We would also love to see your logs, so please please [log a bug](https://aka.ms/vsls-problem). |
-| VS Code | As a guest, you <strong>were not prompted / able to launch VS / VS Code</strong> after opening the join page in the browser. |  Be sure you've <i>started the VS Code at least once</i> after installing Visual Studio Live Share before opening/re-opening the invite page.<br /><br />Otherwise, see [join manually](collab-session.md#join-manually). We would also love to see what might be happening, so please [log a bug](https://aka.ms/vsls-problem). |
-| All | As a guest, you would prefer to <strong>paste the join link directly into VS / VS Code</strong> rather than clicking on the web link. | See [join manually](collab-session.md#join-manually). |
+| VS | As a guest, you <strong>were not prompted / able to launch VS / VS Code</strong> after opening the join page in the browser. |  See [join manually](manual-join.md).<br /><br /> We would also love to see your logs, so please please [log a bug](https://aka.ms/vsls-problem). |
+| VS Code | As a guest, you <strong>were not prompted / able to launch VS / VS Code</strong> after opening the join page in the browser. |  Be sure you've <i>started the VS Code at least once</i> after installing Visual Studio Live Share before opening/re-opening the invite page.<br /><br />Otherwise, see [join manually](manual-join.md). We would also love to see what might be happening, so please [log a bug](https://aka.ms/vsls-problem). |
+| All | As a guest, you would prefer to <strong>paste the join link directly into VS / VS Code</strong> rather than clicking on the web link. | See [join manually](manual-join.md). |
 | All | You have [signed up](https://aka.ms/vsls-signup) for the private preview but are getting an <strong>error about not being accepted</strong> when you try to share. | You need to be accepted into the preview to share as a "host" but not to join as a "guest". Preview acceptances will occur in waves over the preview period and you will be notified by email once accepted. <br /><br /> In addition, be sure you've signed in to Visual Studio or Visual Studio Code using credentials associated with the email address you used to sign up. See [sign in troubleshooting](#sign-in) for more information.  | 
 | All | You are getting a timeout or error about not being able to connect. | See [connectivity troubleshooting](#connectivity). |
 
@@ -68,40 +68,16 @@ The following are troubleshooting tips for sign in problems.
 
 The information below can help you troubleshoot if you're having problems related to connectivity or timeouts when signing in, sharing, or joining. 
 
-As outlined in the [collaboration session how-tos](collab-session.md#change-the-connection-mode), different connection modes have different requirements to function so there are a few different potential issues going on.
+As outlined in the **[connectivity requirements for Live Share](connectivity.md)** article, different connection modes have different requirements to function so there are a few different potential issues going on.
 
 | Tool | Problem | Probable Cause | 
 |------|------|----------------|
 | All | You are using a <strong>proxy</strong> and are seeing a number of connectivity problems | Proxy settings can be tricky particularly [in the case of VS Code](https://github.com/Microsoft/vscode/issues/12588). First, be sure you have **HTTP_PROXY** and **HTTPS_PROXY** environment variables set **globally** so they are picked up by new processes and retry.<br /><br />If this does not resolve the problem, we are investigating and working on fixes for number of issues when connecting via a proxy. Please let us know what you are seeing in [this issue](https://github.com/MicrosoftDocs/live-share/issues/86) and be sure to mention if you are in VS or VS Code along with the OS you are running. |
 | VS Code | After installing the extension and starting up VS Code for the first time you get an <strong>an error when "Finishing Installation" appears in the status bar</strong>. |  You cannot access the internet or access to download.visualstudio.microsoft.com and/or download.microsoft.com on port 443 is blocked by your personal or corporate firewall. See [here](https://github.com/MicrosoftDocs/live-share/issues/58) for information on why Live Share needs to download something at this point. | 
 | All | You are <strong>unable to sign into VS Live Share</strong> | You cannot access the internet or access to *.liveshare.vsengsaas.visualstudio.com on port 80/443 is blocked by your personal or corporate firewall. Enter https://insiders.liveshare.vsengsaas.visualstudio.com in a browser and verify you land at the VS Live Share home page. | 
-| All | You are in <strong>auto mode</strong> (the default), are able to sign in, but see a <strong>timeout or connection error</strong> when either sharing or joining. | Either both direct and relay modes are failing to connect or there is a bug with auto mode. If you are able to connect after [switching to direct or relay mode](collab-session.md#change-the-connection-mode), please [raise a bug](https://aka.ms/vsls-problem). |
-| All | You are in <strong>direct mode</strong>, are able to sign in, but see a <strong>timeout or connection error</strong> when either sharing or joining. | The guest and host cannot directly connect. Try [auto or relay mode](collab-session.md#change-the-connection-mode) to see if the problem goes away. You may need to [manually allow Live Share through your personal firewall](#manually-adding-a-firewall-entry-for-direct-mode) or simply use relay mode. |
-| All | You are in <strong>relay mode</strong>, are able to sign in, but are notified of a <strong>timeout or connection error</strong> when either sharing or joining. | Access to *.servicebus.windows.net on port 80/443 is blocked is blocked by your personal or corporate firewall. Try [direct mode](collab-session.md#change-the-connection-mode). |
-
-Additional specifics on requirements and troubleshooting:
-
-| Mode | Requirements | Troubleshooting |
-|------|----------------|----------------------|
-| All | Access to *.liveshare.vsengsaas.visualstudio.com on port 80/443 | Ensure your corporate or personal network firewall allows you to connect to this domain. Enter https://insiders.liveshare.vsengsaas.visualstudio.com in a browser and verify you land at the VS Live Share home page. |
-| All (VS Code) | Access to download.visualstudio.microsoft.com and download.microsoft.com on port 443 | Ensure your corporate or personal network firewall allows you to connect to this domain. |
-| Auto | Auto-switches. See direct and relay modes. | Switch to direct or relay mode to troubleshoot. |
-| Direct | A port in the range 5990 - 5999 needs to be open on the host's machine and guests need to be able to directly connect to each other. (See [this feature request](https://github.com/MicrosoftDocs/live-share/issues/60) for a proposed improvement.) | Verify "vsls-agent" is not blocked by your desktop firewall software for this port range and that you can ping one another. While Windows and other desktop software should prompt you the first time the agent starts up, we have seen instances where group policies prevent this from happening and you will need to [manually add the entry](#manually-adding-a-firewall-entry-for-direct-mode). |
-| Relay | Access to *.servicebus.windows.net on port 80/443. | Ensure your corporate or personal network firewall allows you to connect to this domain. |
-
-
-### Manually adding a firewall entry for direct mode
-
-As outlined above, your personal firewall needs to allow **vsls-agent**to accept connections in the port range 5990-5999. If you want to use direct mode but have found that your firewall does not have vsls-agent entry, you can add it from one of the following locations:
-
-VS Code (substitute **VERSION** for the extension version):
-
-- **Windows:** %USERPROFILE%\\.vscode\extensions\ms-vsliveshare.vsliveshare-*VERSION*\dotnet_modules\win7-x86\vsls-agent.exe
-- **macOS:** $HOME/.vscode/extensions/ms-vsliveshare.vsliveshare-*VERSION*/dotnet_modules/osx.10.10-x64/vsls-agent
-
-Visual Studio:  
-- Run a search for vsls-agent.exe in your VS install location under **IDE\Extensions**
-- The VS install location is typically C:\Program Files (x86)\Microsoft Visual Studio\Preview\\*EDITION* where **EDITION** is Community, Enterprise, etc 
+| All | You are in <strong>auto mode</strong> (the default), are able to sign in, but see a <strong>timeout or connection error</strong> when either sharing or joining. | Either both direct and relay modes are failing to connect or there is a bug with auto mode. If you are able to connect after [switching to direct or relay mode](connectivity.md#changing-the-connection-mode), please [raise a bug](https://aka.ms/vsls-problem). |
+| All | You are in <strong>direct mode</strong>, are able to sign in, but see a <strong>timeout or connection error</strong> when either sharing or joining. | The guest and host cannot directly connect. Try [auto or relay mode](connectivity.md#changing-the-connection-mode) to see if the problem goes away. You may need to [manually allow Live Share through your personal firewall](connectivity.md#manually-adding-a-firewall-entry-for-direct-mode) or simply use relay mode. |
+| All | You are in <strong>relay mode</strong>, are able to sign in, but are notified of a <strong>timeout or connection error</strong> when either sharing or joining. | Access to *.servicebus.windows.net on port 80/443 is blocked is blocked by your personal or corporate firewall. Try [direct mode](connectivity.md#changing-the-connection-mode). |
 
 ## See also
 

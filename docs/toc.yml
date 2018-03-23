@@ -1,9 +1,6 @@
 - name: Quickstart
   tocHref: /quickstarts
   topicHref: main/quick-start-share.md
-- name: Collaboration Sessions
-  tocHref: /how-toguides
-  topicHref: main/collab-session.md
 - name: Visual Studio Code
   tocHref: /how-toguides
   topicHref: main/collab-vscode.md
@@ -13,3 +10,6 @@
 - name: Languages and Platforms
   tocHref: /reference
   topicHref: main/platform-support.md
+- name: Troubleshooting
+  tocHref: /reference
+  topicHref: main/troubleshooting.md
