@@ -20,8 +20,6 @@ In addition to opening a link in a browser to join a collaboration session, you 
 
 The exact instructions vary between tools, so pick the tool you intend to use for more information.
 
-<br />
-<br />
 <table width="100%">
 <tr>
     <td style="text-align: center;"><strong>Visual Studio Code</strong></td>
@@ -40,8 +38,6 @@ The exact instructions vary between tools, so pick the tool you intend to use fo
     </td>
 </tr>
 </table>
-<br />
-<br />
 
 ## Join from Visual Studio Code
 
