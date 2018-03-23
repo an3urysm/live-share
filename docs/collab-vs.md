@@ -23,7 +23,7 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 # Using Visual Studio with Live Share
 
-Ready to get going with Visual Studio Live share? This article provides you with some useful how-tos for the Visual Studio Live Share extension for Visual Studio. See [using collaboration sessions](collab-session.md) for information on sharing and joining collaboration sessions in VS and other tools.
+Ready to get going with Visual Studio Live share? This article provides you with some useful how-tos for the Visual Studio Live Share extension for Visual Studio. See [working with collaboration sessions](collab-session.md) for information on sharing and joining collaboration sessions in VS and other tools.
 
 ## Co-edit
 
