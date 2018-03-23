@@ -1,8 +1,11 @@
 #!/bin/sh
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd $DIR
 if [ -z "docfx.console" ]; then 
     nuget install docfx.console -ExcludeVersion 
 fi
-cd ../docs
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd $DIR/../docs
 if [ -d "obj" ]; then
     rm -rv obj
 fi
