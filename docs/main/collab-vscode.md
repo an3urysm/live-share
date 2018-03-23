@@ -23,7 +23,10 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 # Using Visual Studio Code with Live Share
 
-Ready to get going with Visual Studio Live share? This article provides you with some useful how-tos for the Visual Studio Live Share extension for Visual Studio Code. See [working with collaboration sessions](collab-session.md) for information on sharing and joining collaboration sessions in VS Code and other tools.
+Already installed the Visual Studio Code extension installed and ready to use some cool features in a collaboration session you're in?  If so, you're in the right spot! In this article we'll walk you through how to use some of the specific features in the Visual Studio Live Share extension for Visual Studio.
+
+If you're just getting started, check out [working with collaboration sessions](collab-session.md) or the [share](quick-start-share.md) or [join](quick-start-join.md) quickstarts for information on sharing and joining collaboration sessions.
+
 ## Use the scoped command menu
 
 Nearly all Visual Studio Live Share functions are available from the Visual Studio Code "Command Palette" that can be accessed using Ctrl+Shift+P or F1. You can find a complete list of commands by typing "live share".

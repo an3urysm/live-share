@@ -21,7 +21,7 @@ All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
 
-# Language and platform support in Live Share
+# Language and platform support
 
 Visual Studio Live Share's features are intended to work across a diverse landscape of languages and application platforms. However, given the sheer number of variations, some platforms and languages are more complete than others. This document covers the current known state of a number of popular languages and platforms for currently supported features.
 
@@ -148,7 +148,7 @@ While most languages have some single file Intellisense support, there are some 
 | VS Extensions | ✅ |  |
 | Linux (C++) | ? | |
 
-<sup>1</sup> Via [share local server](collab-vs.md#share-a-local-server). ASP.NET Web Apps can also use [automatic web app sharing](collab-vs.md#automatic-web-app-sharing-during-debugging).<br />
+<sup>1</sup> Via [share local server](collab-vs.md#share-a-local-server). ASP.NET Web Apps can also use [automatic web app sharing](collab-vs.md#automatic-web-app-sharing).<br />
 <sup>2</sup> Debugging occurs against the host's browser rather than guest.<br />
 <sup>3</sup> By sharing back-end.<br />
 <sup>4</sup> Debugging database stored procs is not currently supported <br />

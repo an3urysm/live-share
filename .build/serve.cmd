@@ -1,4 +1,4 @@
 @ECHO OFF
 IF EXIST obj ( del /s /q obj )
 IF EXIST vslivesharedocs ( del /s /q vslivesharedocs )
-docfx --serve docfx.json
+docfx --serve ..\docs\docfx.json
