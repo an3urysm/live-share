@@ -1,3 +1,19 @@
+---
+title: "Platform and language support - Visual Studio Live Share | Microsoft Docs"
+description: "An overview of platform and language support for Visual Studio Live share."
+ms.custom:
+ms.date: 03/22/2018
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "live-share"
+ms.topic: "reference"
+author: "chuxel"
+ms.author: "clantz"
+manager: "AmandaSilver"
+ms.workload: 
+  - "live-share"
+---
 
 <!--
 Copyright © Microsoft Corporation
@@ -5,7 +21,7 @@ All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
 
-# Language and platform support
+# Language and platform support in Live Share
 
 Visual Studio Live Share's features are intended to work across a diverse landscape of languages and application platforms. However, given the sheer number of variations, some platforms and languages are more complete than others. This document covers the current known state of a number of popular languages and platforms for currently supported features.
 

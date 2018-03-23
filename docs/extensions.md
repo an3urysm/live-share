@@ -1,4 +1,27 @@
-# Extensions and Ecosystem Support
+---
+title: "Extensions and ecosystem support -  Visual Studio Live Share | Microsoft Docs"
+description: "An overview of extension support for Visual Studio Live share."
+ms.custom:
+ms.date: 03/22/2018
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "live-share"
+ms.topic: "reference"
+author: "chuxel"
+ms.author: "clantz"
+manager: "AmandaSilver"
+ms.workload: 
+  - "live-share"
+---
+
+<!--
+Copyright © Microsoft Corporation
+All rights reserved.
+Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
+-->
+
+# Extensions and ecosystem support for Live Share
 
 One of the primary goals of Visual Studio Live Share is to enable developers to collaborate with each other, from the comfort of their favorite, and [**highly-customized**](https://marketplace.visualstudio.com/) tools. This way, ad-hoc interactions can occur frequently, while remaining visually familiar and ergonomic, regardless what you're helping with. To achieve this, it's critical that participants within a collaboration session are able to continue using any extensions which support their [personal preferences and workflows](#user-specific-extensions) (e.g. color themes, key bindings, editor productivity enhancers).
 

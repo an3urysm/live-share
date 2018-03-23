@@ -1,12 +1,29 @@
+---
+title: "Using Visual Studio - Visual Studio Live Share | Microsoft Docs"
+description: "A set of useful how-tos for using Visual Studio with Live Share."
+ms.custom:
+ms.date: 03/22/2018
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "live-share"
+ms.topic: "article"
+author: "chuxel"
+ms.author: "clantz"
+manager: "AmandaSilver"
+ms.workload: 
+  - "live-share"
+---
+
 <!--
 Copyright © Microsoft Corporation
 All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
 
-# Visual Studio how-tos
+# Using Visual Studio with Live Share
 
-Ready to get going with Visual Studio Live share? This article provides you with some useful how-tos for the Visual Studio Live Share extension for Visual Studio. See [collaboration session how-tos](collab-session.md) for information on sharing and joining collaboration sessions in VS and other tools.
+Ready to get going with Visual Studio Live share? This article provides you with some useful how-tos for the Visual Studio Live Share extension for Visual Studio. See [using collaboration sessions](collab-session.md) for information on sharing and joining collaboration sessions in VS and other tools.
 
 ## Co-edit
 

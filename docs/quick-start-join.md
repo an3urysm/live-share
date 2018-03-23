@@ -1,10 +1,27 @@
+---
+title: "Join quickstart - Visual Studio Live Share | Microsoft Docs"
+description: "An abridged walkthrough on joining your first Visual Studio Live Share session."
+ms.custom:
+ms.date: 03/22/2018
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "live-share"
+ms.topic: "quickstart"
+author: "chuxel"
+ms.author: "clantz"
+manager: "AmandaSilver"
+ms.workload: 
+  - "live-share"
+---
+
 <!--
 Copyright © Microsoft Corporation
 All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
 
-# Quickstart: Join your first collaboration session
+# Quickstart: Join your first Live Share collaboration session
 
 Welcome to Visual Studio Live Share! Live Share lets you to achieve greater confidence at speed by streamlining collaborative editing, debugging, and more in real-time during development. You get real-time sharing in tools you love, can share the full context of your code, collaboratively edit while still navigating files independently, securely share local servers, and even collaboratively debug while still retaining the ability to inspect on your own.
 

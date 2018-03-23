@@ -1,6 +1,6 @@
 ---
-title: "Live Share collaboration session how-tos | Microsoft Docs"
-description: "write a 1-phrase or 1-sentence description"
+title: "Collaboration sessions - Visual Studio Live Share | Microsoft Docs"
+description: "A set of useful how-tos for working with collaboration sessions in Visual Studio Live Share."
 ms.custom:
 ms.date: 03/22/2018
 ms.reviewer: ""
@@ -15,7 +15,13 @@ ms.workload:
   - "live-share"
 ---
 
-# Collaboration session how-tos
+<!--
+Copyright © Microsoft Corporation
+All rights reserved.
+Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
+-->
+
+# Working with collaboration sessions in Live Share
 
 In this article, we'll run you through series of detailed how-tos that will help you work with collaboration sessions in Visual Studio Live Share. Information on concepts or installing Visual Studio Live Share can be [found in the overview](getting-started.md).
 

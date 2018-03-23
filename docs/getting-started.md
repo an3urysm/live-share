@@ -1,3 +1,21 @@
+---
+title: "Overview - Visual Studio Live Share | Microsoft Docs"
+description: "An overview of Visual Studio Live Share and its capabilities."
+ms.custom:
+ms.date: 03/22/2018
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "live-share"
+ms.topic: "getting-started"
+author: "chuxel"
+ms.author: "clantz"
+manager: "AmandaSilver"
+ms.workload: 
+  - "live-share"
+---
+
+
 <!--
 Copyright © Microsoft Corporation
 All rights reserved.

@@ -1,10 +1,27 @@
+---
+title: "Troubleshooting - Visual Studio Live Share | Microsoft Docs"
+description: "Troubleshooting tips and tricks for Visual Studio Live Share."
+ms.custom:
+ms.date: 03/22/2018
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "live-share"
+ms.topic: "reference"
+author: "chuxel"
+ms.author: "clantz"
+manager: "AmandaSilver"
+ms.workload: 
+  - "live-share"
+---
+
 <!--
 Copyright © Microsoft Corporation
 All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
 
-# Troubleshooting
+# Troubleshooting Visual Studio Live Share
 
 This article covers troubleshooting tips, workarounds, and answers for common problems and questions. You may also want to take a look at the [FAQ](https://aka.ms/vsls-faq).
 
