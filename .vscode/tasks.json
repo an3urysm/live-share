@@ -6,12 +6,12 @@
         {
             "label": "docfx serve",
             "type": "shell",
-            "command": "serve.sh",
+            "command": "${workspaceFolder}/.build/serve.sh",
             "options": {
                 "cwd": "${workspaceFolder}/.build"
             },
             "windows": {
-                "command": "serve.cmd"
+                "command": "${workspaceFolder}/.build/serve.cmd"
             },
             "group": {
                 "kind": "build",
