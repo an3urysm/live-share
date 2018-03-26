@@ -90,7 +90,7 @@ That's it! You should be connected to the collaboration session momentarily.
 Still having issues? Check out [troubleshooting](troubleshooting.md#share-and-join).
 
 ## See also
-- [Visual Studio Code How-tos](collab-vscode.md)
-- [Visual Studio How-tos](collab-vs.md)
-- [Troubleshooting](troubleshooting.md)
+- [Visual Studio Code features and how-tos](collab-vscode.md)
+- [Visual Studio features and how-tos](collab-vs.md)
 - [Provide feedback](support.md)
+- [Troubleshooting](troubleshooting.md)

@@ -126,8 +126,8 @@ That's it!! Once your colleague has joined the collaboration session you'll be u
 ## See also
 
 - [Quickstart: Join your first session](quick-start-join.md)
-- [Visual Studio Code How-tos](collab-vscode.md)
-- [Visual Studio How-tos](collab-vs.md)
+- [Visual Studio Code features and how-tos](collab-vscode.md)
+- [Visual Studio features and how-tos](collab-vs.md)
 
 Reference
 - [Language and platform support](platform-support.md)

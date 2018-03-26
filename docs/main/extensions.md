@@ -124,5 +124,5 @@ This will require some form of API/SDK, which extensions can use to determine if
 - [Language and platform support](platform-support.md)
 - [All major bugs, feature requests, and limitations](https://aka.ms/vsls-issues)
 - [All feature requests and limitations](https://aka.ms/vsls-feature-requests)
-- [Troubleshooting](troubleshooting.md)
 - [Provide feedback](support.md)
+- [Troubleshooting](troubleshooting.md)

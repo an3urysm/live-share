@@ -298,17 +298,18 @@ To **stop** sharing a local server as the host, you simply click the session sta
 
 ## Session states
 
-After you have started or joined collaboration session and have access to shared content, the "Share" button in the upper right hand corner in VS and the Visual Studio Live Share status bar icons in Visual Studio Code update their appearance to reflect the state of the active collaboration session.
+After you have started or joined collaboration session and have access to shared content, the Visual Studio Live Share status bar items updates  its appearance to reflect the state of the active collaboration session.
 
 The following are the states you will typically see:
 
-| State | Visual Studio | Visual Studio Code | Description |
-|-------|---------------|--------------------|-------------|
-| Inactive | ![VS status: inactive](../media/vs-status-share.png) | ![VS Code status: inactive](../media/vscode-status-share.png) | No active collaboration session and nothing is shared. |
-| Host: Sharing In-Progress | ![VS status: share in progress](../media/vs-status-sharing.png) | ![VS Code status: share in progress](../media/vscode-status-sharing.png)| A collaboration session is starting and content sharing will begin shortly. |
-| Host: Sharing | ![VS Code status: sharing active ](../media/vs-status-active.png) | ![VS Code status: sharing active ](../media/vscode-status-active.png)| A collaboration session is active and content is shared. |
-| Guest: Joining Session | ![VS Code status: joining](../media/vs-status-joining.png) | ![VS Code status: joining](../media/vscode-status-joining.png)| Joining an existing collaboration session. |
-| Guest: Joined | ![VS Code status: joined](../media/vs-status-joined.png) | ![VS Code status: joined](../media/vscode-status-active.png) | Joined and connected to an active collaboration session and receiving shared content. |
+| State | Status Bar | Description |
+|-------|--------------------|-------------|
+| Inactive | ![VS Code status: inactive](../media/vscode-status-share.png) | No active collaboration session and nothing is shared. |
+| Host: Sharing In-Progress | ![VS Code status: share in progress](../media/vscode-status-sharing.png)| A collaboration session is starting and content sharing will begin shortly. |
+| Host: Sharing | ![VS Code status: sharing active ](../media/vscode-status-active.png)| A collaboration session is active and content is shared. |
+| Guest: Joining Session | ![VS Code status: joining](../media/vscode-status-joining.png)| Joining an existing collaboration session. |
+| Guest: Joined | ![VS Code status: joined](../media/vscode-status-active.png) | Joined and connected to an active collaboration session and receiving shared content. |
+
 ## Guest limitations
 
 While there are currently some shortcomings guests will experience while using the features described above, collaboration session hosts retain the complete functionality of their tool of choice. See the following for more information:
@@ -323,5 +324,6 @@ While there are currently some shortcomings guests will experience while using t
 
 - [Quickstart: Share your first project](quick-start-share.md)
 - [Quickstart: Join your first session](quick-start-join.md)
-- [Visual Studio How-tos](collab-vs.md)
+- [Visual Studio features and how-tos](collab-vs.md)
 - [Provide feedback](support.md)
+- [Troubleshooting](troubleshooting.md)

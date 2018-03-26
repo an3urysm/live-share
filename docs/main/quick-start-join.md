@@ -88,8 +88,8 @@ Interested in joining the private limited preview so you can create collaboratio
 ## See also
 
 - [Quickstart: Share your first project](quick-start-share.md)
-- [Visual Studio Code How-tos](collab-vscode.md)
-- [Visual Studio How-tos](collab-vs.md)
+- [Visual Studio Code features and how-tos](collab-vscode.md)
+- [Visual Studio features and how-tos](collab-vs.md)
 
 Reference
 - [Language and platform support](platform-support.md)

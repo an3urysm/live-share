@@ -19,7 +19,7 @@ While the initial focus of Visual Studio Live Share is real-time collaborative d
 
 [![Slack](docs/media/Slack_Mark-24x24.png)](https://aka.ms/vsls-slack) [![Twitter](docs/media/Twitter_Social_Icon_24x24.png)](https://aka.ms/vsls-twitter) [![Mail](docs/media/icon-mail-24x24.png)](mailto:vsls-feedback@microsoft.com)
 
-## Quick Starts
+## Quickstarts
 
 - [Share your first project](docs/main/quick-start-share.md) (after you've been accepted into the preview)
 - [Join your first collaboration session](docs/main/quick-start-join.md) (no need to sign up or be accepted in the preview)
@@ -28,10 +28,16 @@ While the initial focus of Visual Studio Live Share is real-time collaborative d
 
 - [Visual Studio Code features and how-tos](docs/main/collab-vscode.md)
 - [Visual Studio features and how-tos](docs/main/collab-vs.md)
+
+## Reference
 - [Connectivity requirements](docs/main/connectivity.md)
 - [Language and platform support](docs/main/platform-support.md)
 - [Extension support](docs/main/extensions.md)
 - [Troubleshooting](docs/main/troubleshooting.md)
+
+## Resources
+
+- [Provide feedback](support.md)
 - [FAQ](https://aka.ms/vsls-faq)
 
 ## Community-created content
