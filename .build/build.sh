@@ -5,7 +5,7 @@ cd $DIR
 if [ -z "docfx.console" ]; then 
     nuget install docfx.console -ExcludeVersion 
 fi
-cd $DIR/../docs
+cd ../docs
 if [ -d "obj" ]; then
     rm -rv obj
 fi

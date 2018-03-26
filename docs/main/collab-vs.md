@@ -164,13 +164,14 @@ As a guest, you can leave the collaboration session without ending it for others
 ![VS Join menu](../media/vs-leave-session.png)
 
 Any temp files are automatically cleaned up so no further action is needed.
+
 ### Troubleshooting
 
 Having issues with sharing? Check out [troubleshooting](troubleshooting.md#share-and-join).
 
 ## Co-editing
 
-Once a guest has joined a collaboration session, the host other guests will immediately be able to see each others edits and highlights in real-time. Simply select a file from the Solution Explorer and start editing. Guests will see edits as the host or other guests make them and can contribute themselves in real time so you can iterate and rapidly nail to down solutions.
+Once a guest has joined a collaboration session, the host other guests will immediately be able to see each others edits and highlights in real-time. Simply select a file from the Solution Explorer and start editing. All participants  will see edits as the host or other guests make them and can contribute themselves in real time so you can iterate and rapidly nail to down solutions.
 
 ![Screen shot showing co-editing](../media/vs-coedit.png)
 
@@ -202,6 +203,19 @@ To make it easy to hop in and out of pinning, the editor is un-pinned if any of 
 
 Afterwards you can simply click the pin icon again to follow their location once again.
 
+### Changing participant flag behaviors
+
+By default, Visual Studio Live Share automatically displays a "flag" next to a participant's cursor on hover, or when they edit, highlight, or move their cursor. In some cases you may prefer to change this behavior.
+
+1. Go to **Tools > Options > Live Share**
+2. Change the **Flag visibility** option to one of the following:
+
+| Option | Behavior |
+|--------|----------|
+| OnHoverOnly | The flag is only visible when you hover over the cursor. |
+| OnHoverOrActivity | This is the default. The flag is visible on hover or if the participant edits, highlights, or moves their cursor. |
+| Always | The flag is always visible.
+
 ## Co-debuging
 
 Visual Studio Live Share's collaborative debugging feature is a powerful and unique way to debug an issue. Beyond enabling a collaborative experience to troubleshoot problems it also gives all collaborators the ability to investigate issues that may be environment specific by providing a shared debugging session on the host's machine.
@@ -212,7 +226,7 @@ Using it simple. The collaboration session host simply needs to start debugging 
 
 ![VS Debug button](../media/vs-debug-button.png)
 
-Once the debugger attaches on the host's side, all guests are also attached. While there is one debugging "session" running on the host's machine, all collaborators are connected to it and have their own view. 
+Once the debugger attaches on the host's side, all guests are also attached. While there is one debugging "session" running on the host's machine, all collaborators are connected to it and have their own view.
 
 > **Tip:** If you want to change when and how co-debugging happens, you can change the default behaviors via settings in **Tools > Options > Live Share**.
 
@@ -222,7 +236,7 @@ Anyone can step through the debugging process which enables seamless switching b
 
 Each collaborator can investigate different variables, jump to different files in the call stack, variables, and breakpoints are shared across all guests and can be added by anyone. Co-editing features then allow each collaborator to track where the other is located to provide the unique ability to seamlessly switch between concurrently investigating different aspects of the problem and collaboratively debugging.
 
-> **Tip:** You can participate in VS Code debugging sessions from VS and vice versa! If the host is using VS Code, you can check out the [VS Code instructions](collab-vscode.md#co-debuging) but the steps are roughly the same. 
+> **Tip:** You can participate in VS Code debugging sessions from VS and vice versa! If the host is using VS Code, you can check out the [VS Code instructions](collab-vscode.md#co-debuging) but the steps are roughly the same.
 
 ### Automatic web app sharing
 
@@ -245,6 +259,19 @@ If you've updated settings so that as a guest you do not auto-attach to a co-deb
 ...and then click it to attach.
 
 ![VS Debug button](../media/vs-reattach.png)
+
+### Change when VS joins debugging sessions
+
+By default as a guest, you'll be automatically attached to debugging sessions when they are shared by the host. However, in some cases you may find this behavior disruptive.  Fortunately, you can change it as follows:
+
+1. Go to **Tools > Options > Live Share**
+2. Change the **Join debug session option** option to one of the following:
+
+| Option | Behavior |
+|--------|----------|
+| Automatic | The default. As a guest, you'll automatically join any shared debugging session the host starts. |
+| Prompted | As a guest, you are prompted as to whether you want to join a shared debugging session when it is started by the host. |
+| Manual | As a guest, you'll need to manually join any  debugging sessions. See [detaching and reattaching](#detaching-and-reattaching).|
 
 ## Share a local server
 

@@ -222,6 +222,18 @@ To make it easy to hop in and out of pinning, the tab set is un-pinned if any of
 
 Afterwards, simply click the pin icon again to follow them once again.
 
+### Changing participant flag behaviors
+
+By default, Visual Studio Live Share automatically displays a "flag" next to a participant's cursor on hover, or when they edit, highlight, or move their cursor. In some cases you may prefer to change this behavior.
+
+Simply **edit settings.json** (File > Preferences > Settings), add one of the following, and then restart VS Code:
+
+| Setting | Behavior |
+|---------|----------|
+| ``"liveshare.nameTagVisibility":"Never"`` | The flag is only visible when you hover over the cursor. |
+| ``"liveshare.nameTagVisibility":"Activity"`` | This is the default. The flag is visible on hover or if the participant edits, highlights, or moves their cursor.
+| ``"liveshare.nameTagVisibility":"Always"`` | The flag is always visible. |
+
 ## Co-debuging
 
 Visual Studio Live Share's collaborative debugging feature is a powerful and unique way to debug an issue. Beyond enabling a collaborative experience to troubleshoot problems it also gives all collaborators the ability to investigate issues that may be environment specific by providing a shared debugging session on the host's machine.
@@ -263,6 +275,18 @@ If you've updated settings so that as a guest you do not auto-attach to a co-deb
 Visual Studio Code does not have the concept of an known "web application port" like Visual Studio for project types such as ASP.NET. However, if you are joining a collaboration session with a VS user that does you will automatically see the default browser appear connected to the host's running applications. See [Visual Studio features](collab-vs.md#automatic-web-app-sharing) for more details.
 
 In addition, you can manually share the application or other endpoints like RESTful services using the "Share Local Server" feature. VS and VS Code guests can then open a browser on the same localhost port to see the running application.  See [share a local server](#share-a-local-server) for more details.
+
+### Change when VS Code joins debugging sessions
+
+By default as a guest, you'll be automatically attached to debugging sessions when they are shared by the host. However, in some cases you may find this behavior disruptive.  Fortunately, you can change it as follows:
+
+Simply **edit settings.json** (File > Preferences > Settings), add one of the following, and then restart VS Code:
+
+| Setting | Behavior |
+|---------|----------|
+|``"liveshare.joinDebugSessionOption":"Automatic"`` | The default. As a guest, you'll automatically join any shared debugging session the host starts. |
+| ``"liveshare.joinDebugSessionOption":"Prompt"`` | As a guest, you are prompted as to whether you want to join a shared debugging session when it is started by the host. |
+| ``"liveshare.joinDebugSessionOption":"Manual"`` | As a guest, you'll need to manually join any  debugging sessions. See [detaching and reattaching](#detaching-and-reattaching). | 
 
 ## Share a local server
 
