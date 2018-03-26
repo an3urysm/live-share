@@ -25,7 +25,9 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 Ready to get going with Live Share in Visual Studio?  If so, you're in the right spot! In this article we'll walk you through how to use some of the specific features in the Visual Studio Live Share extension for Visual Studio.
 
-Looking for an abridged summary? Check out the [share](quick-start-share.md) or [join](quick-start-join.md) quickstarts instead.
+Note that all collaboration activities in described here involve a single **collaboration session host** and one or more **guests**. The host is the person that started the collaboration session and anyone that joins is a guest.
+
+*Looking for an abridged summary? Check out the [share](quick-start-share.md) or [join](quick-start-join.md) quickstarts instead.*
 
 ## Installation
 
@@ -265,7 +267,7 @@ If you've updated settings so that as a guest you do not auto-attach to a co-deb
 By default as a guest, you'll be automatically attached to debugging sessions when they are shared by the host. However, in some cases you may find this behavior disruptive.  Fortunately, you can change it as follows:
 
 1. Go to **Tools > Options > Live Share**
-2. Change the **Join debug session option** option to one of the following:
+2. Change the **Join debug session option** to one of the following:
 
 | Option | Behavior |
 |--------|----------|
