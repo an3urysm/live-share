@@ -60,7 +60,7 @@ The specific ports and URLs that need to be available for Live Share to function
 | Relay | Access to *.servicebus.windows.net on port 80/443. | Ensure your corporate or personal network firewall allows you to connect to this domain. |
 
 
-## Manually adding a firewall entry for direct mode
+## Manually adding a firewall entry
 
 As outlined above, your personal firewall needs to allow **vsls-agent**to accept connections in the port range 5990-5999. If you want to use direct mode but have found that your firewall does not have vsls-agent entry, you can add it from one of the following locations:
 
